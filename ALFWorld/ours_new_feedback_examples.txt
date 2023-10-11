@@ -1,0 +1,111 @@
+You are in the middle of a room. Looking quickly around you, you see a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.
+Your task is to: put a clean plate in countertop.
+> critic: My task requires three sub-goals in order: take a plate, clean the plate with sinkbasin, and put the plate on the countertop. My current state satisfies zero of the three sub-goals. The value is 0/3=0.
+> OK.
+The drawer 1 is closed.
+> OK.
+You open the drawer 1. The drawer 1 is open. In it, you see a creditcard 2, a knife 1, and a spatula 2.
+> OK.
+On the stoveburner 2, you see a pan 1.
+> OK.
+You pick up the pan 1 from the stoveburner 2.
+> critic: Now I take a pan. My current state satisfies the first of the three sub-goals: take a plate. The value is 1/3=0.167.
+> OK.
+On the sinkbasin 1, you see nothing.
+> OK.
+You put the pan 1 in/on the sinkbasin 1.
+> OK.
+The microwave 1 is closed.
+> OK.
+You open the microwave 1. The microwave 1 is open. In it, you see a potato 1.
+> OK.
+On the garbagecan 1, you see a soapbottle 2.
+> OK.
+The microwave 1 is open. In it, you see a potato 1.
+> OK.
+On the coffeemachine 1, you see nothing.
+> OK.
+On the countertop 2, you see a bread 1, a cellphone 2, a cellphone 1, a papertowelroll 1, a plate 2, and a soapbottle 1.
+> OK.
+The drawer 2 is closed.
+> OK.
+You open the drawer 2. The drawer 2 is open. In it, you see a spatula 1.
+> OK.
+On the sinkbasin 1, you see a pan 1.
+> OK.
+On the cabinet 3, you see a cup 1.
+> OK.
+On the countertop 1, you see a apple 2, a dishsponge 2, a potato 3, and a potato 2.
+STATUS: FAIL
+Failure feedback: In this environment, my critic assigned a 1/3 value after taking a pan. However, the task is to take and clean a plate. I noticed that the plate was found on countertop 2. In the next trial, I will go to countertop 2 to take the plate, then go to a sinkbasin to clean the plate.
+
+You are in the middle of a room. Looking quickly around you, you see a cabinet 20, a cabinet 19, a cabinet 18, a cabinet 17, a cabinet 16, a cabinet 15, a cabinet 14, a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.
+Your task is to: put two saltshaker in drawer.
+> critic: My task requires four sub-goals in order: take the first saltshaker, put the first saltshaker in the drawer, take the second saltshaker, and put the second saltshaker in the drawer. My current state satisfies zero of the four sub-goals. The value is 0/4=0.
+> OK.
+On the coffeemachine 1, you see a cup 1, a fork 4, and a potato 2.
+> OK.
+On the toaster 1, you see a pan 1 and a knife 1.
+> OK.
+On the countertop 3, you see a bowl 2, a houseplant 1, a knife 2, a peppershaker 1, a saltshaker 4, a soapbottle 1, a spatula 2, and a tomato 3.
+> OK.
+You pick up the saltshaker 4 from the countertop 3.
+> critic: Now I take the first saltshaker. My current state satisfies the first of the four sub-goals: take the first saltshaker. The value is 1/4=0.25.
+> OK.
+The drawer 1 is open. In it, you see nothing.
+> OK.
+You put the saltshaker 4 in/on the drawer 1.
+> critic: Now I put the first creditcard in the dresser. My current state satisfies the first two of the four sub-goals: take the first saltshaker and put the first saltshaker in the drawer. The value is 2/4=0.5.
+> OK.
+On the stoveburner 1, you see a bread 1.
+> OK.
+On the stoveburner 2, you see a potato 1, a pot 2, and a knife 3.
+> OK.
+On the stoveburner 3, you see a fork 1, a fork 2, and a cup 2.
+> OK.
+On the stoveburner 4, you see a peppershaker 1 and a pan 2.
+> OK.
+You pick up the peppershaker 1 from the stoveburner 4.
+> critic: Now I take the second saltshaker. My current state satisfies the first three of the four sub-goals: take the first saltshaker, put the first saltshaker in the drawer, and take the second saltshaker. The value is 3/4=0.75.
+> OK.
+The drawer 1 is open. In it, you see a saltshaker 4.
+> OK.
+You put the peppershaker 1 in/on the drawer 1.
+> critic: Now I put the second creditcard in the dresser. My current state satisfies all the four sub-goals. The value is 4/4=1.
+STATUS: FAIL
+Failure feedback: In this environment, my critic assigned a 1/4 value after taking a saltshaker and a 3/4 value after taking a peppershaker. However, the task is to put two saltshaker in the drawer. I noticed that one saltshaker was put on the countertop 3. I didn't find the second saltshaker in this trial. In the next trial, I will first go to countertop 3 to take the first saltshaker and then explore other locations to find a second saltshaker, including drawer 2-3, shelf 1-3, and cabinet 1-20.
+
+You are in the middle of a room. Looking quickly around you, you see a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.
+Your task is to: put a cool tomato in microwave.
+> critic: My task requires three sub-goals in order: take a tomato, cool the tomato with fridge, and put the tomato in the microwave. My current state satisfies zero of the three sub-goals. The value is 0/3=0.
+> OK.
+On the countertop 1, you see a mug 1, and a saltshaker 1.
+> OK.
+On the sinkbasin 1, you see a fork 1, a glassbottle 2, a spatula 1, and a spoon 3.
+> OK.
+You pick up the fork 1 from the sinkbasin 1.
+> critic: Now I take a fork. My current state satisfies the first of the six sub-goals: take a fork. The value is 1/3=0.333.
+> OK.
+On the countertop 2, you see a butterknife 2, a butterknife 1, a cellphone 1, a glassbottle 1, a knife 1, a lettuce 3, a peppershaker 1, a statue 2, a statue 1, and a vase 1.
+> OK.
+On the countertop 3, you see a bread 1, a butterknife 3, a creditcard 2, a houseplant 1, a knife 3, a knife 2, a mug 2, a peppershaker 2, and a spatula 2.
+> OK.
+On the stoveburner 4, you see a pan 1.
+> OK.
+The drawer 3 is closed.
+> OK.
+You open the drawer 3. The drawer 3 is open. In it, you see a saltshaker 3.
+> OK.
+The fridge 1 is closed.
+> OK.
+On the countertop 3, you see a bread 1, a butterknife 3, a creditcard 2, a houseplant 1, a knife 3, a knife 2, a mug 2, a peppershaker 2, and a spatula 2.
+> OK.
+On the cabinet 1, you see a dishsponge 1.
+> OK.
+The cabinet 2 is closed.
+> OK.
+You open the cabinet 2. The cabinet 2 is open. In it, you see nothing.
+> OK.
+On the cabinet 3, you see a cd 1 and a plate 4.
+STATUS: FAIL
+Failure feedback: In this environment, my critic assigned a 1/3 value after taking a fork. However, the task is to take and cool a tomato. I didn't find the tomato in this trial. In the next trial, I will explore other locations to find a tomato, including cabinet 4, cabinet 5, coffeemachine 1, microwave 1, shelf 1-3, stoveburner 1-4 and toaster 1, etc.

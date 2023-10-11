@@ -1,0 +1,24 @@
+import re
+from typing import List
+
+
+def extract_integers_from_string(s) -> List[int]:
+    # Use regex to find all integers in the string
+    integers = re.findall(r'\d+', s)
+    
+    # Convert the extracted strings to integers
+    return [int(i) for i in integers]
+
+
+def llm_count_obstacles(target: str, state: str, world_model, memory=None) -> int:
+    if memory == None or memory == "":
+        prompt="I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do \n\nPick up a block \nUnstack a block from on top of another block \nPut down a block \nStack a block on top of another block \n\nI have the following restrictions on my actions:\nI can only pick up or unstack one block at a time. \nI can only pick up or unstack a block if my hand is empty. \nI can only pick up a block if the block is on the table and the block is clear. A block is clear if the block has no other blocks on top of it and if the block is not picked up. \nI can only unstack a block from on top of another block if the block I am unstacking was really on top of the other block. \nI can only unstack a block from on top of another block if the block I am unstacking is clear. Once I pick up or unstack a block, I am holding the block. \nI can only put down a block that I am holding. \nI can only stack a block on top of another block if I am holding the block being stacked. \nI can only stack a block on top of another block if the block onto which I am stacking the block is clear. Once I put down or stack a block, my hand becomes empty.\n\nAfter being given a state and a target block in question, check how many blocks are piled on the target block in the state.\n[STATE]I have that, the blue block is in the hand, the orange block is clear, the hand is holding the blue block, the orange block is on top of the red block, the red block is on top of the yellow block, and the yellow block is on the table.\nQuestion:how many blocks are piled on the blue block?\n[STATE STATUS]The key information in the state includes: \"the blue block is in the hand\". There are 0 block piled on the blue block.\n[STATE]I have that, the blue block is clear, the red block is clear, the white block is clear, the hand is empty, the red block is on top of the yellow block, the yellow block is on top of the orange block, the blue block is on the table, the orange block is on the table, and the white block is on the table.\nQuestion:how many blocks are piled on the orange block?\n[STATE STATUS]The key information in the state includes: \"the yellow block is on top of the orange block\", \"the red block is on top of the yellow block\". There are 2 block piled on the orange block.\n[STATE]I have that, the red block is clear, the yellow block is clear, the hand is empty, the blue block is on top of the white block, the red block is on top of the orange block, the yellow block is on top of the blue block, the orange block is on the table, and the white block is on the table.\nQuestion:how many blocks are piled on the blue block?\n[STATE STATUS]The key information in the state includes: \"the yellow block is on top of the blue block\". There is 1 block piled on the blue block.\n[STATE]{}\nQuestion:how many blocks are piled on {}?\n[STATE STATUS]".format(state, target)
+    else:
+        prompt="I am playing with a set of blocks where I need to arrange the blocks into stacks. Here are the actions I can do \n\nPick up a block \nUnstack a block from on top of another block \nPut down a block \nStack a block on top of another block \n\nI have the following restrictions on my actions:\nI can only pick up or unstack one block at a time. \nI can only pick up or unstack a block if my hand is empty. \nI can only pick up a block if the block is on the table and the block is clear. A block is clear if the block has no other blocks on top of it and if the block is not picked up. \nI can only unstack a block from on top of another block if the block I am unstacking was really on top of the other block. \nI can only unstack a block from on top of another block if the block I am unstacking is clear. Once I pick up or unstack a block, I am holding the block. \nI can only put down a block that I am holding. \nI can only stack a block on top of another block if I am holding the block being stacked. \nI can only stack a block on top of another block if the block onto which I am stacking the block is clear. Once I put down or stack a block, my hand becomes empty.\n\nAfter being given a state and a target block in question, check if how many blocks are piled on the target block in the state.\n"
+        prompt += memory
+        prompt += "[STATE]{}\nQuestion:how many blocks are piled on {}?\n[STATE STATUS]".format(state, target)
+    state_status = world_model.query_LM(prompt)
+    ans = extract_integers_from_string(state_status)
+    if len(ans) > 0:
+        return ans[-1]
+    return 0
