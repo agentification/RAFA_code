@@ -9,7 +9,7 @@ Project page: https://agentification.github.io/RAFA/.
 Please follow the instructions in the respective directories to reproduce our results in the four benchmarks: 
 * [Game of 24](https://github.com/agentification/RAFA_code/tree/main/Game24)
 * [ALFWorld](https://github.com/agentification/RAFA_code/tree/main/ALFWorld)
-* [BlocskWorld](https://github.com/agentification/RAFA_code/tree/main/BlocksWorld)
+* [BlocksWorld](https://github.com/agentification/RAFA_code/tree/main/BlocksWorld)
 * [Tic-Tac-Toe](https://github.com/agentification/RAFA_code/tree/main/Tic-Tac-Toe)
 
 
