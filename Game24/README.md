@@ -2,15 +2,19 @@
 
 Code for the RAFA (Reason for Future, Act for Now) algorithm in Game of 24.
 
+## Environment setup
+
+- Add API_KEY to `agent/__init__.py`,
+
 ## Run the code
 
-To run the experiment, add API_KEY to `agent/__init__.py`, and use the following command:
+### Experiment replication
 
 ```
 python run.py --backend gpt-4 --task game24 --task_file_path 24.csv --task_start_index 900 --task_end_index 1000 --prompt_sample standard --n_generate_sample 10 --method_generate propose --method_evaluate value --method_select greedy --n_select_sample 1 --n_evaluate_sample 3 --feedback
 ```
 
-## Params for different method
+### Params for different method
 
 - baseline ToT method (b=1, b=2)
 
@@ -39,5 +43,5 @@ python run.py --backend gpt-4 --task game24 --task_file_path 24.csv --task_start
 ```
 
 
-## GPT 3.5
+### GPT 3.5
 To run gpt-3.5-turbo, just replace `--backend gpt-4` with `--backend gpt-3.5-turbo`. You can use `--backend gpt-3.5-turbo-16k` to avoid context length error if possible.
