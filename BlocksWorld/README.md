@@ -4,14 +4,8 @@ Code for the RAFA (Reason for Future, Act for Now) algorithm in the BlocksWorld 
 
 ## Environment setup
 
-- Our experiments are conducted with Vicuna-13B/33B, which takes at least 2 GPUs of 13000MB memory each. For the setting of CUDA, one can refer to `env_info/cuda_info.txt`.
+- Our experiments are conducted with Vicuna-13B/33B (v1.3). Please refer to https://github.com/lm-sys/FastChat to download the model weights and install the required packages.
 
-- Install all the required python packages by
-    ```
-    pip install -r env_info/requirements.txt
-    ```
-
-- For more details on the operating system we used, one can refer to `env_info/sys_info.txt`.
 
 ## Run the code
 
