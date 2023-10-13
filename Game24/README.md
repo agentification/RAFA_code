@@ -4,8 +4,10 @@ Code for the RAFA (Reason for Future, Act for Now) algorithm in Game of 24.
 
 ## Environment setup
 
-- Add API_KEY to `agent/__init__.py`,
-
+- Set `OPENAI_API_KEY` environment variable to your OpenAI API key:
+```bash
+export OPENAI_API_KEY=<your key>
+```
 ## Run the code
 
 ### Experiment replication

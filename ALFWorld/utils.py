@@ -8,12 +8,10 @@ from tenacity import (
 
 from typing import Optional, List, Union
 
-
+openai.api_key = os.getenv("OPENAI_API_KEY", "")
 @retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6))
 def get_completion(prompt: Union[str, List[str]], max_tokens: int = 256, stop_strs: Optional[List[str]] = None, is_batched: bool = False) -> Union[str, List[str]]:
     assert (not is_batched and isinstance(prompt, str)) or (is_batched and isinstance(prompt, list))
-
-
     response = openai.ChatCompletion.create(
         engine='gpt-4',
         messages=[
@@ -28,14 +26,12 @@ def get_completion(prompt: Union[str, List[str]], max_tokens: int = 256, stop_st
         for choice in response.choices:
             res[choice.index] = choice.text
         return res
-    #return response.choices[0].text
     return response.choices[0]["message"]["content"].strip()
 
 
 @retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(6))
 def get_completion_gpt3(prompt: Union[str, List[str]], max_tokens: int = 256, stop_strs: Optional[List[str]] = None, is_batched: bool = False) -> Union[str, List[str]]:
     assert (not is_batched and isinstance(prompt, str)) or (is_batched and isinstance(prompt, list))
-
     response = openai.ChatCompletion.create(
         engine='gpt-35-turbo',
         messages=[

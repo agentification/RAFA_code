@@ -19,6 +19,7 @@ import time, random, re
 FOLDER = './prompts'
 PROMPT_FILE = 'alfworld_newprompts.json' #'alfworld_3prompts.json'
 VALUE_PROMPT_FILE = 'alfworld_value.json'
+openai.api_key = os.getenv("OPENAI_API_KEY", "")
 
 with open(os.path.join(FOLDER, PROMPT_FILE), 'r') as f:
     d = json.load(f)
@@ -58,10 +59,6 @@ def call_openai_api(prompt, stop, n, temperature=0.0, chatcompletion=False):
     return response
 
 def llm(prompt, stop=["\n"], n=1, temperature=0.0, chatcompletion=False):
-    openai.api_key = "jQlEvealzOcL4aXXVzOsm5yOANVn2Jsk"
-    openai.api_type = "azure"
-    openai.api_base = "https://search.bytedance.net/gpt/openapi/online/v2/crawl"
-    openai.api_version = "2023-06-01-preview"
     try:
         response = call_openai_api(prompt, stop, n=n, temperature=temperature, chatcompletion=chatcompletion)
     except Exception as e:
@@ -87,10 +84,6 @@ def llm(prompt, stop=["\n"], n=1, temperature=0.0, chatcompletion=False):
 
 
 def llm_n(prompt, stop=["\n"], n=6, temperature=1.0):
-    openai.api_key = "jQlEvealzOcL4aXXVzOsm5yOANVn2Jsk"
-    openai.api_type = "azure"
-    openai.api_base = "https://search.bytedance.net/gpt/openapi/online/v2/crawl"
-    openai.api_version = "2023-06-01-preview"
     try:
         response = call_openai_api(prompt, stop, n=n, temperature=temperature)
     except Exception as e:

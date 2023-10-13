@@ -3,32 +3,8 @@ import openai
 from tenacity import retry, retry_if_exception_type, wait_random_exponential, stop_after_attempt
 from tenacity import wait_fixed
 
-API = "beijing"  # shanghai, beijing, us
 completion_tokens = prompt_tokens = 0
-
-if API == "shanghai":
-    api_base = os.getenv("OPENAI_API_BASE_SHANGHAI")
-    api_version = os.getenv("OPENAI_API_VERSION_SHANGHAI")
-    api_key = os.getenv("OPENAI_API_KEY_SHANGHAI")
-    assert api_base and api_version and api_key
-    openai.api_type = "azure"
-    openai.api_base = api_base
-    openai.api_version = api_version
-    openai.api_key = api_key
-elif API == "beijing":
-    api_base = os.getenv("OPENAI_API_BASE_BEIJING")
-    api_version = os.getenv("OPENAI_API_VERSION_BEIJING")
-    api_key = os.getenv("OPENAI_API_KEY_BEIJING")
-    # assert api_base and api_version and api_key
-    openai.api_type = "azure"
-    openai.api_base = api_base
-    openai.api_version = api_version
-    openai.api_key = api_key
-elif API == 'us':
-    api_key = os.getenv("OPENAI_API_KEY", "")
-    openai.api_key = api_key
-else:
-    raise NotImplementedError
+openai.api_key = os.getenv("OPENAI_API_KEY", "")
 
 
 @retry(retry=retry_if_exception_type(openai.error.OpenAIError), 
