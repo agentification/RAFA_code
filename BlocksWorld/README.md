@@ -4,7 +4,10 @@ Code for the RAFA (Reason for Future, Act for Now) algorithm in the BlocksWorld 
 
 ## Environment setup
 
-- Our experiments are conducted with Vicuna-13B/33B (v1.3). Please refer to https://github.com/lm-sys/FastChat to download the model weights and install the required packages.
+- Our experiments are conducted with Vicuna-13B/33B (v1.3). The required packages can be installed by
+    ```
+    pip install -r requirements.txt
+    ```
 
 
 ## Run the code
