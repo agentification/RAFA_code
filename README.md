@@ -17,12 +17,10 @@ Please follow the instructions in the respective directories to reproduce our re
 ### Citation
 
 ```bibtex
-@misc{liu2023reason,
-      title={Reason for Future, Act for Now: A Principled Framework for Autonomous LLM Agents with Provable Sample Efficiency}, 
-      author={Zhihan Liu and Hao Hu and Shenao Zhang and Hongyi Guo and Shuqi Ke and Boyi Liu and Zhaoran Wang},
-      year={2023},
-      eprint={2309.17382},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI}
+@article{liu2023reason,
+      title={Reason for Future, Act for Now: A Principled Framework for Autonomous LLM Agents with Provable Sample Efficiency},
+      author={Liu, Zhihan and Hu, Hao and Zhang, Shenao and Guo, Hongyi and Ke, Shuqi and Liu, Boyi and Wang, Zhaoran},
+      journal={arXiv preprint arXiv:2309.17382},
+      year={2023}
 }
 ```
