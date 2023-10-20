@@ -1,0 +1,1698 @@
+
+#####
+
+Environment #0: Success
+
+#####
+
+#####
+
+Environment #1: Success
+
+#####
+
+#####
+
+Environment #2: Success
+
+#####
+
+#####
+
+Environment #3: Success
+
+#####
+
+#####
+
+Environment #4: Success
+
+#####
+
+#####
+
+Environment #5: Success
+
+#####
+
+#####
+
+Environment #6: Success
+
+#####
+
+#####
+
+Environment #7: Success
+
+#####
+
+#####
+
+Environment #8: Success
+
+#####
+
+#####
+
+Environment #9: Success
+
+#####
+
+#####
+
+Environment #10: Success
+
+#####
+
+#####
+
+Environment #11: Success
+
+#####
+
+#####
+
+Environment #12: Success
+
+#####
+
+#####
+
+Environment #13: Success
+
+#####
+
+#####
+
+Environment #14: Success
+
+#####
+
+#####
+
+Environment #15: Success
+
+#####
+
+#####
+
+Environment #16: Success
+
+#####
+
+#####
+
+Environment #17: Success
+
+#####
+
+#####
+
+Environment #18: Success
+
+#####
+
+#####
+
+Environment #19: Success
+
+#####
+
+#####
+
+Environment #20:
+
+
+Your memory for the task below:
+Trial 0:
+In this environment, my critic assigned a 1/3 value after taking a soapbottle. However, the task is to take and heat an apple. I didn't find the apple in this trial. In the next trial, I will explore other locations to find an apple, including cabinet 1-4, countertop 1-2, drawer 1-2, shelf 1-3, stoveburner 2-4 and toaster 1, etc.
+Trial 1:
+In this environment, my critic failed to generate any value as I didn't find or take an apple, which is the first step in the task. The task is to take an apple, heat it, and then put it in the fridge. I didn't find the apple in this trial. In the next trial, I will explore other locations to find an apple, including cabinet 5-6, countertop 3, drawer 3, fridge 1, microwave 1, sinkbasin 1, stoveburner 1, and coffeemachine 1, etc.
+Here is the task:
+You are in the middle of a room. Looking quickly around you, you see a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.
+Your task is to: heat some apple and put it in fridge.
+> critic: My task requires three sub-goals in order: take an apple, heat the apple with microwave, and put the apple in the fridge. My current state satisfies zero of the three sub-goals. The value is 0/3=0.
+> OK.
+On the cabinet 1, you see a glassbottle 1.
+> OK.
+The cabinet 2 is closed.
+> OK.
+You open the cabinet 2. The cabinet 2 is open. In it, you see a dishsponge 1, and a plate 1.
+> OK.
+On the cabinet 3, you see a plate 2.
+> OK.
+On the cabinet 4, you see nothing.
+> OK.
+The cabinet 5 is closed.
+> OK.
+You open the cabinet 5. The cabinet 5 is open. In it, you see a dishsponge 2, a peppershaker 1, and a soapbottle 1.
+> OK.
+The cabinet 6 is closed.
+> OK.
+You open the cabinet 6. The cabinet 6 is open. In it, you see nothing.
+> OK.
+On the countertop 1, you see a cellphone 1, a creditcard 3, a creditcard 1, and a pan 1.
+> OK.
+On the countertop 2, you see a creditcard 2, a knife 2, a knife 1, a statue 1, and a tomato 3.
+> OK.
+On the countertop 3, you see a bowl 2, a bowl 1, a butterknife 1, a cellphone 3, a cellphone 2, a cup 1, a houseplant 1, a knife 3, a plate 3, a soapbottle 2, a spatula 1, a spoon 1, a vase 3, and a vase 2.
+> OK.
+You pick up the soapbottle 2 from the countertop 3.
+> critic: Now I take an apple. My current state satisfies the first of the three sub-goals: take an apple. The value is 1/3=0.333.
+> OK.
+On the stoveburner 2, you see a pot 1.
+> OK.
+On the stoveburner 3, you see a pan 1.
+> OK.
+On the stoveburner 4, you see a pot 1.
+> OK.
+Nothing happens.
+> OK.
+Nothing happens.
+> OK.
+On the stoveburner 3, you see a pan 1.
+> OK.
+On the cabinet 4, you see nothing.
+
+STATUS: FAIL
+
+#####
+
+#####
+
+Environment #21: Success
+
+#####
+
+#####
+
+Environment #22:
+
+
+Your memory for the task below:
+Trial 0:
+In this environment, my critic assigned a 1/3 value after taking a pan. However, the task is to take and cool a tomato. I didn't find the tomato in this trial. In the next trial, I will explore other locations to find a tomato, including cabinet 1-6, coffeemachine 1, countertop 1-3, drawer 1-3, garbagecan 1, microwave 1, shelf 1-3, sinkbasin 1, stoveburner 1-4 and toaster 1, etc.
+Trial 1:
+In this environment, my critic assigned a 0/3 value after taking a dishsponge. However, the task is to take and cool a tomato. I noticed that the tomato was found in the garbagecan 1. In the next trial, I will go to garbagecan 1 to take the tomato, then go to the fridge to cool the tomato, and finally put the cooled tomato in the microwave.
+Here is the task:
+You are in the middle of a room. Looking quickly around you, you see a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.
+Your task is to: put a cool tomato in microwave.
+> critic: My task requires three sub-goals in order: take a tomato, cool the tomato with fridge, and put the tomato in the microwave. My current state satisfies zero of the three sub-goals. The value is 0/3=0.
+> OK.
+On the garbagecan 1, you see a apple 1, and a tomato 1.
+> OK.
+You pick up the tomato 1 from the garbagecan 1.
+> critic: Now I take a tomato. My current state satisfies the first of the three sub-goals: take a tomato. The value is 1/3=0.333.
+> OK.
+The fridge 1 is closed.
+> OK.
+You open the fridge 1. The fridge 1 is open. In it, you see a bowl 2, a bowl 1, a egg 1, a lettuce 2, a lettuce 1, a potato 2, and a potato 1.
+> OK.
+You cool the tomato 1 using the fridge 1.
+> critic: Now I cool the tomato. My current state satisfies the first two of the three sub-goals: take a tomato and cool the tomato with fridge. The value is 2/3=0.667.
+> OK.
+The microwave 1 is closed.
+> OK.
+You open the microwave 1. The microwave 1 is open. In it, you see nothing.
+> OK.
+You put the tomato 1 in/on the microwave 1.
+
+STATUS: OK
+
+#####
+
+#####
+
+Environment #23: Success
+
+#####
+
+#####
+
+Environment #24: Success
+
+#####
+
+#####
+
+Environment #25: Success
+
+#####
+
+#####
+
+Environment #26: Success
+
+#####
+
+#####
+
+Environment #27: Success
+
+#####
+
+#####
+
+Environment #28: Success
+
+#####
+
+#####
+
+Environment #29: Success
+
+#####
+
+#####
+
+Environment #30: Success
+
+#####
+
+#####
+
+Environment #31: Success
+
+#####
+
+#####
+
+Environment #32: Success
+
+#####
+
+#####
+
+Environment #33: Success
+
+#####
+
+#####
+
+Environment #34: Success
+
+#####
+
+#####
+
+Environment #35: Success
+
+#####
+
+#####
+
+Environment #36: Success
+
+#####
+
+#####
+
+Environment #37: Success
+
+#####
+
+#####
+
+Environment #38: Success
+
+#####
+
+#####
+
+Environment #39: Success
+
+#####
+
+#####
+
+Environment #40:
+
+
+Your memory for the task below:
+Trial 0:
+In this environment, my critic assigned a 1/4 value after finding the first toiletpaper and a 3/4 value after finding the second toiletpaper. However, the task is to find two toiletpapers and put them in the cabinet. I noticed that I put the first toiletpaper on the toiletpaperhanger instead of the cabinet. In the next trial, I will ensure to put both toiletpapers in the cabinet after finding them.
+Trial 1:
+In this environment, my critic assigned a 1/4 value after finding the first toiletpaper and a 3/4 value after finding the second toiletpaper. However, the task is to find two toiletpapers and put them in the cabinet. I noticed that I put the first toiletpaper on the toiletpaperhanger and the second toiletpaper on the sinkbasin instead of the cabinet. Also, I mistakenly identified soapbars as toiletpapers. In the next trial, I will ensure to correctly identify toiletpapers and put both toiletpapers in the cabinet after finding them.
+Here is the task:
+You are in the middle of a room. Looking quickly around you, you see a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 2, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.
+Your task is to: find two toiletpaper and put them in cabinet.
+> critic: My task requires four sub-goals in order: find the first toiletpaper, put the first toiletpaper in the cabinet, find the second toiletpaper, and put the second toiletpaper in the cabinet. My current state satisfies zero of the four sub-goals. The value is 0/4=0.
+> OK.
+On the toiletpaperhanger 1, you see nothing.
+> OK.
+On the countertop 1, you see a candle 3, a candle 1, a soapbottle 1, a spraybottle 2, and a toiletpaper 1.
+> OK.
+You pick up the toiletpaper 1 from the countertop 1.
+> critic: Now I find the first toiletpaper. My current state satisfies the first of the four sub-goals: find the first toiletpaper. The value is 1/4=0.25.
+> OK.
+The cabinet 1 is closed.
+> OK.
+You open the cabinet 1. The cabinet 1 is open. In it, you see a candle 2, and a cloth 1.
+> OK.
+You put the toiletpaper 1 in/on the cabinet 1.
+> critic: Now I put the first toiletpaper in the cabinet. My current state satisfies the first two of the four sub-goals: find the first toiletpaper and put the first toiletpaper in the cabinet. The value is 2/4=0.5.
+> OK.
+On the sinkbasin 1, you see nothing.
+> OK.
+On the sinkbasin 2, you see a soapbar 1.
+> OK.
+On the toilet 1, you see a soapbar 3, a soapbar 2, and a toiletpaper 3.
+> OK.
+You pick up the toiletpaper 3 from the toilet 1.
+> critic: Now I find the second toiletpaper. My current state satisfies the first three of the four sub-goals: find the first toiletpaper, put the first toiletpaper in the cabinet, and find the second toiletpaper. The value is 3/4=0.75.
+> OK.
+The cabinet 1 is open. In it, you see a candle 2, a cloth 1, and a toiletpaper 1.
+> OK.
+You put the toiletpaper 3 in/on the cabinet 1.
+
+STATUS: OK
+
+#####
+
+#####
+
+Environment #41: Success
+
+#####
+
+#####
+
+Environment #42:
+
+
+Your memory for the task below:
+Trial 0:
+In this environment, my critic assigned a 1/4 value after taking a spatula and a 3/4 value after taking a spoon. However, the task is to put two peppershakers in the drawer. I noticed that one peppershaker was found on the countertop 2 and another one in the cabinet 1. In the next trial, I will first go to countertop 2 to take the first peppershaker, then go to cabinet 1 to take the second peppershaker, and finally put them in the drawer.
+Trial 1:
+In this environment, my critic assigned a 1/4 value after taking a peppershaker. However, I failed to put the peppershaker in the drawer and take the second peppershaker. I noticed that one peppershaker was found on the countertop 2 and another one in the cabinet 1. In the next trial, I will first go to countertop 2 to take the first peppershaker, put it in the drawer, then go to cabinet 1 to take the second peppershaker, and finally put it in the drawer.
+Here is the task:
+You are in the middle of a room. Looking quickly around you, you see a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.
+Your task is to: put two peppershaker in drawer.
+> critic: My task requires four sub-goals in order: take the first peppershaker, put the first peppershaker in the drawer, take the second peppershaker, and put the second peppershaker in the drawer. My current state satisfies zero of the four sub-goals. The value is 0/4=0.
+> OK.
+On the countertop 2, you see a butterknife 1, a knife 1, a mug 1, a peppershaker 3, and a tomato 1.
+> OK.
+You pick up the peppershaker 3 from the countertop 2.
+> critic: Now I take the first peppershaker. My current state satisfies the first of the four sub-goals: take the first peppershaker. The value is 1/4=0.25.
+> OK.
+The drawer 1 is closed.
+> OK.
+You open the drawer 1. The drawer 1 is open. In it, you see a cellphone 1, and a fork 1.
+> OK.
+You put the peppershaker 3 in/on the drawer 1.
+> critic: Now I put the first peppershaker in the drawer. My current state satisfies the first two of the four sub-goals: take the first peppershaker and put the first peppershaker in the drawer. The value is 2/4=0.5.
+> OK.
+On the cabinet 1, you see a mug 2, and a peppershaker 2.
+> OK.
+You pick up the peppershaker 2 from the cabinet 1.
+> critic: Now I take the second peppershaker. My current state satisfies the first three of the four sub-goals: take the first peppershaker, put the first peppershaker in the drawer, and take the second peppershaker. The value is 3/4=0.75.
+> OK.
+The drawer 1 is open. In it, you see a cellphone 1, a fork 1, and a peppershaker 3.
+> OK.
+You put the peppershaker 2 in/on the drawer 1.
+
+STATUS: OK
+
+#####
+
+#####
+
+Environment #43: Success
+
+#####
+
+#####
+
+Environment #44: Success
+
+#####
+
+#####
+
+Environment #45: Success
+
+#####
+
+#####
+
+Environment #46: Success
+
+#####
+
+#####
+
+Environment #47: Success
+
+#####
+
+#####
+
+Environment #48: Success
+
+#####
+
+#####
+
+Environment #49: Success
+
+#####
+
+#####
+
+Environment #50: Success
+
+#####
+
+#####
+
+Environment #51:
+
+
+Your memory for the task below:
+Trial 0:
+In this environment, my critic assigned a 1/4 value after taking a handtowel. However, the task is to take and put two soapbars in the garbagecan. I didn't find any soapbars in this trial. In the next trial, I will explore other locations to find a soapbar, including cabinet 1-4, countertop 1, sinkbasin 1-2, toilet 1, toiletpaperhanger 1, and towelholder 1, etc.
+Trial 1:
+In this environment, my critic assigned a 1/4 value after taking a towel. However, the task is to take and put two soapbars in the garbagecan. I noticed that two soapbars were found on the countertop 1. In the next trial, I will go to countertop 1 to take the first soapbar, put it in the garbagecan, then take the second soapbar and put it in the garbagecan as well.
+Here is the task:
+You are in the middle of a room. Looking quickly around you, you see a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 2, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.
+Your task is to: put two soapbar in garbagecan.
+> critic: My task requires four sub-goals in order: take the first soapbar, put the first soapbar in the garbagecan, take the second soapbar, and put the second soapbar in the garbagecan. My current state satisfies zero of the four sub-goals. The value is 0/4=0.
+> OK.
+On the countertop 1, you see a candle 1, a soapbar 2, a soapbar 1, a soapbottle 1, and a spraybottle 3.
+> OK.
+You pick up the soapbar 1 from the countertop 1.
+> critic: Now I take the first soapbar. My current state satisfies the first of the four sub-goals: take the first soapbar. The value is 1/4=0.25.
+> OK.
+On the garbagecan 1, you see nothing.
+> OK.
+You put the soapbar 1 in/on the garbagecan 1.
+> critic: Now I put the first soapbar in the garbagecan. My current state satisfies the first two of the four sub-goals: take the first soapbar and put the first soapbar in the garbagecan. The value is 2/4=0.5.
+> OK.
+On the countertop 1, you see a candle 1, a soapbar 2, a soapbottle 1, and a spraybottle 3.
+> OK.
+You pick up the soapbar 2 from the countertop 1.
+> critic: Now I take the second soapbar. My current state satisfies the first three of the four sub-goals: take the first soapbar, put the first soapbar in the garbagecan, and take the second soapbar. The value is 3/4=0.75.
+> OK.
+On the garbagecan 1, you see a soapbar 1.
+> OK.
+You put the soapbar 2 in/on the garbagecan 1.
+
+STATUS: OK
+
+#####
+
+#####
+
+Environment #52:
+
+
+Your memory for the task below:
+Trial 0:
+In this environment, my critic assigned a 1/3 value after taking a mug and a 2/3 value after heating the mug. However, the task is to put a hot cup in the cabinet. I noticed that I put the mug in the cabinet and then took it out again, which is unnecessary and does not contribute to the task completion. In the next trial, after heating the mug, I will directly put it in the cabinet without taking it out again.
+Trial 1:
+In this environment, my critic assigned a 1/3 value after taking a mug and a 2/3 value after heating the mug. However, the task is to put a hot cup in the cabinet. I noticed that I put the mug in the cabinet and then took it out again, which is unnecessary and does not contribute to the task completion. In the next trial, after heating the mug, I will directly put it in the cabinet without taking it out again.
+Here is the task:
+You are in the middle of a room. Looking quickly around you, you see a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.
+Your task is to: put a hot cup in cabinet.
+> critic: My task requires three sub-goals in order: take a cup, heat the cup with microwave, and put the cup in the cabinet. My current state satisfies zero of the three sub-goals. The value is 0/3=0.
+> OK.
+On the countertop 1, you see a apple 1, a egg 1, a knife 1, and a mug 3.
+> OK.
+You pick up the mug 3 from the countertop 1.
+> critic: Now I take a cup. My current state satisfies the first of the three sub-goals: take a cup. The value is 1/3=0.333.
+> OK.
+The microwave 1 is closed.
+> OK.
+You heat the mug 3 using the microwave 1.
+> critic: Now I heat the cup. My current state satisfies the first two of the three sub-goals: take a cup and heat the cup with microwave. The value is 2/3=0.667.
+> OK.
+On the cabinet 1, you see a pan 1.
+> OK.
+You put the mug 3 in/on the cabinet 1.
+> critic: Now I put the cup in the cabinet. My current state satisfies all the three sub-goals. The value is 3/3=1.
+> OK.
+On the toaster 1, you see nothing.
+> OK.
+On the cabinet 1, you see a mug 3, and a pan 1.
+> OK.
+You pick up the mug 3 from the cabinet 1.
+> critic: Now I take a cup. My current state satisfies the first of the three sub-goals: take a cup. The value is 1/3=0.333.
+> OK.
+You put the mug 3 in/on the cabinet 1.
+> critic: Now I put the cup in the cabinet. My current state satisfies all the three sub-goals. The value is 3/3=1.
+> OK.
+Nothing happens.
+> critic: My current state satisfies all the three sub-goals. The value is 3/3=1.
+> OK.
+On the coffeemachine 1, you see nothing.
+> OK.
+On the cabinet 1, you see a mug 3, and a pan 1.
+> critic: My current state satisfies all the three sub-goals. The value is 3/3=1.
+> OK.
+You pick up the mug 3 from the cabinet 1.
+> critic: Now I take a cup. My current state satisfies the first of the three sub-goals: take a cup. The value is 1/3=0.333.
+> OK.
+You put the mug 3 in/on the cabinet 1.
+> critic: Now I put the cup in the cabinet. My current state satisfies all the three sub-goals. The value is 3/3=1.
+> OK.
+Nothing happens.
+> critic: My current state satisfies all the three sub-goals. The value is 3/3=1.
+> OK.
+The fridge 1 is closed.
+> OK.
+You open the fridge 1. The fridge 1 is open. In it, you see a bowl 3, a mug 2, a plate 1, a potato 1, and a tomato 1.
+> OK.
+You pick up the tomato 1 from the fridge 1.
+> critic: Now I take a tomato. My current state satisfies zero of the three sub-goals. The value is 0/3=0.
+> OK.
+On the cabinet 1, you see a mug 3, and a pan 1.
+
+STATUS: FAIL
+
+#####
+
+#####
+
+Environment #53: Success
+
+#####
+
+#####
+
+Environment #54:
+
+
+Your memory for the task below:
+Trial 0:
+In this environment, my critic assigned a 2/3 value after cleaning the plate and placing it on the cabinet. However, the task is to clean a plate and put it on the countertop. In the next trial, I will ensure to place the cleaned plate on the countertop instead of the cabinet.
+Trial 1:
+In this environment, my critic assigned a 1/3 value after taking a knife. However, the task is to clean a plate and put it on the countertop. I noticed that the plate was found on the countertop 3. In the next trial, I will go to countertop 3 to take the plate, then go to a sinkbasin to clean the plate, and finally put the cleaned plate on the countertop.
+Here is the task:
+You are in the middle of a room. Looking quickly around you, you see a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.
+Your task is to: clean some plate and put it in countertop.
+> OK.
+On the countertop 3, you see a apple 2, a bread 2, a butterknife 1, a egg 3, a houseplant 1, a papertowelroll 1, a plate 4, a plate 3, a spatula 3, a spatula 2, a spoon 3, a spoon 2, a spoon 1, a statue 2, a statue 1, and a tomato 3.
+> OK.
+You pick up the plate 4 from the countertop 3.
+> critic: Now I take a plate. My current state satisfies the first of the three sub-goals: take a plate. The value is 1/3=0.333.
+> OK.
+On the sinkbasin 1, you see nothing.
+> OK.
+You clean the plate 4 using the sinkbasin 1.
+> critic: Now I clean the plate. My current state satisfies the first two of the three sub-goals: take the plate and clean the plate with sinkbasin. The value is 2/3=0.667.
+> OK.
+On the countertop 1, you see nothing.
+> OK.
+You put the plate 4 in/on the countertop 1.
+
+STATUS: OK
+
+#####
+
+#####
+
+Environment #55: Success
+
+#####
+
+#####
+
+Environment #56: Success
+
+#####
+
+#####
+
+Environment #57: Success
+
+#####
+
+#####
+
+Environment #58: Success
+
+#####
+
+#####
+
+Environment #59: Success
+
+#####
+
+#####
+
+Environment #60: Success
+
+#####
+
+#####
+
+Environment #61:
+
+
+Your memory for the task below:
+Trial 0:
+In this environment, my critic assigned a 1/4 value after taking a cellphone. However, the task is to put two keychains in the safe. I didn't find any keychains in this trial. In the next trial, I will explore other locations to find a keychain, including cabinet 1-3, drawer 1-4, garbagecan 1, sidetable 1, armchair 1, sofa 1, and shelf 11-12, etc.
+Trial 1:
+In this environment, my critic assigned a 1/4 value after taking a cellphone. However, the task is to put two keychains in the safe. I noticed that a keychain was found on the sidetable 1. In the next trial, I will first go to sidetable 1 to take the first keychain and then explore other locations to find a second keychain, including cabinet 1-4, drawer 1-5, shelf 1-12, armchair 1, sofa 1, and garbagecan 1.
+Here is the task:
+You are in the middle of a room. Looking quickly around you, you see a armchair 1, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a dresser 1, a garbagecan 1, a safe 1, a shelf 12, a shelf 11, a shelf 10, a shelf 9, a shelf 8, a shelf 7, a shelf 6, a shelf 5, a shelf 4, a shelf 3, a shelf 2, a shelf 1, a sidetable 1, and a sofa 1.
+Your task is to: put two keychain in safe.
+> critic: My task requires four sub-goals in order: take the first keychain, put the first keychain in the safe, take the second keychain, and put the second keychain in the safe. My current state satisfies zero of the four sub-goals. The value is 0/4=0.
+> OK.
+On the sidetable 1, you see a keychain 1, and a watch 1.
+> OK.
+You pick up the keychain 1 from the sidetable 1.
+> critic: Now I take the first keychain. My current state satisfies the first of the four sub-goals: take the first keychain. The value is 1/4=0.25.
+> OK.
+The safe 1 is closed.
+> OK.
+You open the safe 1. The safe 1 is open. In it, you see a watch 3, and a watch 2.
+> OK.
+You put the keychain 1 in/on the safe 1.
+> critic: Now I put the first keychain in the safe. My current state satisfies the first two of the four sub-goals: take the first keychain and put the first keychain in the safe. The value is 2/4=0.5.
+> OK.
+On the shelf 10, you see a box 2.
+> OK.
+On the shelf 11, you see nothing.
+> OK.
+On the shelf 12, you see nothing.
+> OK.
+On the armchair 1, you see a cellphone 3, and a pillow 1.
+> OK.
+On the sofa 1, you see a box 1, a keychain 2, and a remotecontrol 1.
+> OK.
+You pick up the keychain 2 from the sofa 1.
+> critic: Now I take the second keychain. My current state satisfies the first three of the four sub-goals: take the first keychain, put the first keychain in the safe, and take the second keychain. The value is 3/4=0.75.
+> OK.
+The safe 1 is open. In it, you see a keychain 1, a watch 3, and a watch 2.
+> OK.
+You put the keychain 2 in/on the safe 1.
+
+STATUS: OK
+
+#####
+
+#####
+
+Environment #62: Success
+
+#####
+
+#####
+
+Environment #63: Success
+
+#####
+
+#####
+
+Environment #64: Success
+
+#####
+
+#####
+
+Environment #65: Success
+
+#####
+
+#####
+
+Environment #66: Success
+
+#####
+
+#####
+
+Environment #67: Success
+
+#####
+
+#####
+
+Environment #68: Success
+
+#####
+
+#####
+
+Environment #69: Success
+
+#####
+
+#####
+
+Environment #70: Success
+
+#####
+
+#####
+
+Environment #71: Success
+
+#####
+
+#####
+
+Environment #72:
+
+
+Your memory for the task below:
+Trial 0:
+In this environment, my critic assigned a 1/4 value after taking a cellphone. However, the task is to take and put two keychains in the safe. I noticed that one keychain was found in drawer 4. I didn't find the second keychain in this trial. In the next trial, I will first go to drawer 4 to take the first keychain and then explore other locations to find a second keychain, including drawer 1-3, drawer 5, cabinet 1-4, shelf 1-12, and safe 1.
+Trial 1:
+In this environment, my critic assigned a 1/4 value after taking the first keychain from drawer 4 and a 2/4 value after putting the first keychain in the safe. However, I failed to put the second keychain in the safe. I noticed that the second keychain was found on the sofa 1. In the next trial, I will first go to drawer 4 to take the first keychain, then go to the safe to put the first keychain, then go to the sofa 1 to take the second keychain, and finally go back to the safe to put the second keychain.
+Here is the task:
+You are in the middle of a room. Looking quickly around you, you see a armchair 1, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a dresser 1, a garbagecan 1, a safe 1, a shelf 12, a shelf 11, a shelf 10, a shelf 9, a shelf 8, a shelf 7, a shelf 6, a shelf 5, a shelf 4, a shelf 3, a shelf 2, a shelf 1, a sidetable 1, and a sofa 1.
+Your task is to: put two keychain in safe.
+> critic: My task requires four sub-goals in order: take the first keychain, put the first keychain in the safe, take the second keychain, and put the second keychain in the safe. My current state satisfies zero of the four sub-goals. The value is 0/4=0.
+> OK.
+On the shelf 8, you see nothing.
+> OK.
+On the shelf 9, you see a newspaper 2, and a tissuebox 3.
+> OK.
+On the shelf 10, you see nothing.
+> OK.
+On the shelf 11, you see a vase 2.
+> OK.
+On the shelf 12, you see nothing.
+> OK.
+The drawer 1 is closed.
+> OK.
+You open the drawer 1. The drawer 1 is open. In it, you see nothing.
+> OK.
+On the sidetable 1, you see a remotecontrol 1, a tissuebox 1, and a watch 1.
+> OK.
+The drawer 2 is closed.
+> OK.
+You open the drawer 2. The drawer 2 is open. In it, you see nothing.
+> OK.
+On the shelf 7, you see nothing.
+> OK.
+On the shelf 6, you see a statue 3.
+> OK.
+On the shelf 5, you see nothing.
+> OK.
+On the shelf 4, you see nothing.
+> OK.
+On the shelf 3, you see nothing.
+> OK.
+Nothing happens.
+> OK.
+The drawer 3 is closed.
+> OK.
+You open the drawer 3. The drawer 3 is open. In it, you see a creditcard 2.
+> OK.
+On the shelf 2, you see nothing.
+> OK.
+The drawer 4 is closed.
+
+STATUS: FAIL
+
+#####
+
+#####
+
+Environment #73: Success
+
+#####
+
+#####
+
+Environment #74: Success
+
+#####
+
+#####
+
+Environment #75:
+
+
+Your memory for the task below:
+Trial 0:
+In this environment, my critic assigned a 1/3 value after taking a cellphone. However, the task is to take and heat a cup. I noticed that the cup was found on the coffeemachine 1 and I successfully heated it and put it in the cabinet. However, I then picked up a cellphone which was not part of the task. In the next trial, I will stick to the task of taking a cup, heating it, and putting it in the cabinet without picking up any other items.
+Trial 1:
+In this environment, my critic assigned a 1/3 value after taking a mug from the coffeemachine 1 and a 2/3 value after heating it. However, after putting the mug in the cabinet 1, I picked up a pot from the stoveburner 3, which was not part of the task. This led to a confusion in the task sequence. In the next trial, I will stick to the task of taking a cup, heating it, and putting it in the cabinet without picking up any other items.
+Here is the task:
+You are in the middle of a room. Looking quickly around you, you see a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.
+Your task is to: put a hot cup in cabinet.
+> critic: My task requires three sub-goals in order: take a cup, heat the cup with microwave, and put the cup in the cabinet. My current state satisfies zero of the three sub-goals. The value is 0/3=0.
+> OK.
+On the coffeemachine 1, you see a mug 1.
+> OK.
+You pick up the mug 1 from the coffeemachine 1.
+> critic: Now I take a cup. My current state satisfies the first of the three sub-goals: take a cup. The value is 1/3=0.333.
+> OK.
+The microwave 1 is closed.
+> OK.
+You heat the mug 1 using the microwave 1.
+> critic: Now I heat the cup. My current state satisfies the first two of the three sub-goals: take a cup and heat the cup with microwave. The value is 2/3=0.667.
+> OK.
+On the cabinet 1, you see a plate 2, and a plate 1.
+> OK.
+You put the mug 1 in/on the cabinet 1.
+> critic: Now I put the cup in the cabinet. My current state satisfies all the three sub-goals. The value is 3/3=1.
+> OK.
+Nothing happens.
+> OK.
+On the toaster 1, you see nothing.
+> OK.
+On the stoveburner 4, you see a pan 1.
+> OK.
+On the stoveburner 3, you see a pot 1.
+> OK.
+You pick up the pot 1 from the stoveburner 3.
+> critic: Now I take a pot. My current state satisfies the first of the three sub-goals: take a cup. The value is still 1/3=0.333.
+> OK.
+On the cabinet 1, you see a mug 1, a plate 2, and a plate 1.
+> OK.
+You put the pot 1 in/on the cabinet 1.
+> critic: Now I put the pot in the cabinet. My current state satisfies the first two of the three sub-goals: take a cup and put the cup in the cabinet. The value is still 2/3=0.667.
+> OK.
+On the coffeemachine 1, you see nothing.
+> OK.
+The microwave 1 is closed.
+> OK.
+You open the microwave 1. The microwave 1 is open. In it, you see a potato 1.
+> OK.
+Nothing happens.
+> OK.
+On the coffeemachine 1, you see nothing.
+> OK.
+On the stoveburner 4, you see a pan 1.
+> OK.
+You pick up the pan 1 from the stoveburner 4.
+
+STATUS: FAIL
+
+#####
+
+#####
+
+Environment #76:
+
+
+Your memory for the task below:
+Trial 0:
+In this environment, my critic assigned a 1/2 value after taking a tomato and a dishsponge. However, the task is to take a saltshaker and put it in the drawer. I didn't find the saltshaker in this trial. In the next trial, I will explore other locations to find a saltshaker, including cabinet 1-6, coffeemachine 1, countertop 2-3, microwave 1, shelf 1-3, stoveburner 1-4 and toaster 1, etc.
+Trial 1:
+In this environment, my critic assigned a 1/2 value after taking a tomato. However, the task is to take a saltshaker and put it in the drawer. I noticed that the saltshaker was found in cabinet 6. In the next trial, I will go to cabinet 6 to take the saltshaker and then go to a drawer to put the saltshaker in.
+Here is the task:
+You are in the middle of a room. Looking quickly around you, you see a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.
+Your task is to: put a saltshaker in drawer.
+> critic: My task requires two sub-goals in order: take a saltshaker and put the saltshaker in the drawer. My current state satisfies zero of the two sub-goals. The value is 0/2=0.
+> OK.
+The cabinet 6 is closed.
+> OK.
+You open the cabinet 6. The cabinet 6 is open. In it, you see a glassbottle 3, a saltshaker 2, and a vase 2.
+> OK.
+You pick up the saltshaker 2 from the cabinet 6.
+> critic: Now I take a saltshaker. My current state satisfies the first of the two sub-goals: take a saltshaker. The value is 1/2=0.5.
+> OK.
+The drawer 1 is closed.
+> OK.
+You open the drawer 1. The drawer 1 is open. In it, you see a creditcard 1.
+> OK.
+You put the saltshaker 2 in/on the drawer 1.
+
+STATUS: OK
+
+#####
+
+#####
+
+Environment #77: Success
+
+#####
+
+#####
+
+Environment #78: Success
+
+#####
+
+#####
+
+Environment #79: Success
+
+#####
+
+#####
+
+Environment #80: Success
+
+#####
+
+#####
+
+Environment #81: Success
+
+#####
+
+#####
+
+Environment #82: Success
+
+#####
+
+#####
+
+Environment #83:
+
+
+Your memory for the task below:
+Trial 0:
+In this environment, my critic assigned a 1/2 value after taking a dishsponge. However, the task is to take a saltshaker. I didn't find the saltshaker in this trial. In the next trial, I will explore other locations to find a saltshaker, including cabinet 1-4, coffeemachine 1, countertop 1-3, microwave 1, shelf 1-3, stoveburner 1-4 and toaster 1, etc.
+Trial 1:
+In this environment, my critic assigned a 0/2 value after taking a mug. However, the task is to take a saltshaker and put it in the drawer. I didn't find the saltshaker in this trial. In the next trial, I will explore other locations to find a saltshaker, including cabinet 5-6, drawer 2-3, fridge 1, garbagecan 1, shelf 1, and sinkbasin 1, etc.
+Here is the task:
+You are in the middle of a room. Looking quickly around you, you see a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.
+Your task is to: put a saltshaker in drawer.
+> critic: My task requires two sub-goals in order: take a saltshaker and put the saltshaker in the drawer. My current state satisfies zero of the two sub-goals. The value is 0/2=0.
+> OK.
+On the cabinet 1, you see a glassbottle 1.
+> OK.
+The cabinet 2 is closed.
+> OK.
+You open the cabinet 2. The cabinet 2 is open. In it, you see a plate 1, a saltshaker 1, and a soapbottle 1.
+> OK.
+You pick up the saltshaker 1 from the cabinet 2.
+> critic: Now I take a saltshaker. My current state satisfies the first of the two sub-goals: take a saltshaker. The value is 1/2=0.5.
+> OK.
+The drawer 1 is closed.
+> OK.
+You open the drawer 1. The drawer 1 is open. In it, you see a fork 1, and a peppershaker 1.
+> OK.
+The cabinet 6 is closed.
+> OK.
+You open the cabinet 6. The cabinet 6 is open. In it, you see a dishsponge 1.
+> OK.
+The drawer 3 is closed.
+> OK.
+You open the drawer 3. The drawer 3 is open. In it, you see nothing.
+> OK.
+You put the saltshaker 1 in/on the drawer 3.
+
+STATUS: OK
+
+#####
+
+#####
+
+Environment #84: Success
+
+#####
+
+#####
+
+Environment #85: Success
+
+#####
+
+#####
+
+Environment #86: Success
+
+#####
+
+#####
+
+Environment #87: Success
+
+#####
+
+#####
+
+Environment #88: Success
+
+#####
+
+#####
+
+Environment #89:
+
+
+Your memory for the task below:
+Trial 0:
+In this environment, my critic assigned a 1/3 value after taking a pot, a 2/3 value after cooling the pot, and a 1 value after putting the pot on the countertop. However, the task is to cool a pan, not a pot. I didn't find the pan in this trial. In the next trial, I will explore other locations to find a pan, including cabinet 1-6, drawer 1-3, shelf 1-3, stoveburner 2-4, and toaster 1, etc.
+Trial 1:
+In this environment, my critic assigned a 1/3 value after taking a pan and a 2/3 value after cooling the pan. However, I failed to put the pan on the countertop, which is the final sub-goal. In the next trial, after cooling the pan, I will ensure to put the pan on the countertop to complete the task.
+Here is the task:
+You are in the middle of a room. Looking quickly around you, you see a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.
+Your task is to: cool some pan and put it in countertop.
+> critic: My task requires three sub-goals in order: take a pan, cool the pan with fridge, and put the pan in the countertop. My current state satisfies zero of the three sub-goals. The value is 0/3=0.
+> OK.
+On the stoveburner 2, you see a pan 1.
+> OK.
+You pick up the pan 1 from the stoveburner 2.
+> critic: Now I take a pan. My current state satisfies the first of the three sub-goals: take a pan. The value is 1/3=0.333.
+> OK.
+The fridge 1 is closed.
+> OK.
+You open the fridge 1. The fridge 1 is open. In it, you see nothing.
+> OK.
+You cool the pan 1 using the fridge 1.
+> critic: Now I cool the pan. My current state satisfies the first two of the three sub-goals: take a pan and cool the pan with fridge. The value is 2/3=0.667.
+> OK.
+On the countertop 1, you see a mug 1.
+> OK.
+You put the pan 1 in/on the countertop 1.
+
+STATUS: OK
+
+#####
+
+#####
+
+Environment #90: Success
+
+#####
+
+#####
+
+Environment #91: Success
+
+#####
+
+#####
+
+Environment #92: Success
+
+#####
+
+#####
+
+Environment #93: Success
+
+#####
+
+#####
+
+Environment #94: Success
+
+#####
+
+#####
+
+Environment #95: Success
+
+#####
+
+#####
+
+Environment #96: Success
+
+#####
+
+#####
+
+Environment #97: Success
+
+#####
+
+#####
+
+Environment #98: Success
+
+#####
+
+#####
+
+Environment #99:
+
+
+Your memory for the task below:
+Trial 0:
+In this environment, my critic assigned a 1/4 value after taking a soapbottle and a 3/4 value after taking a cloth. However, the task is to put two soapbars in the garbagecan. I didn't find any soapbars in this trial. In the next trial, I will explore other locations to find a soapbar, including cabinet 3-4, sinkbasin 2, handtowelholder 1-2, toiletpaperhanger 1, and towelholder 1, etc.
+Trial 1:
+In this environment, my critic assigned a 1/4 value after taking a cloth and a 3/4 value after taking a soapbar. However, the task is to put two soapbars in the garbagecan. I noticed that the soapbars were found on the toilet 1. In the next trial, I will go to toilet 1 to take the first soapbar, then go to the garbagecan to put it in, and repeat the process for the second soapbar.
+Here is the task:
+You are in the middle of a room. Looking quickly around you, you see a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 2, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.
+Your task is to: put two soapbar in garbagecan.
+> critic: My task requires four sub-goals in order: take the first soapbar, put the first soapbar in the garbagecan, take the second soapbar, and put the second soapbar in the garbagecan. My current state satisfies zero of the four sub-goals. The value is 0/4=0.
+> OK.
+On the toilet 1, you see a soapbar 2, and a soapbar 1.
+> OK.
+You pick up the soapbar 1 from the toilet 1.
+> critic: Now I take the first soapbar. My current state satisfies the first of the four sub-goals: take the first soapbar. The value is 1/4=0.25.
+> OK.
+On the garbagecan 1, you see nothing.
+> OK.
+You put the soapbar 1 in/on the garbagecan 1.
+> critic: Now I put the first soapbar in the garbagecan. My current state satisfies the first two of the four sub-goals: take the first soapbar and put the first soapbar in the garbagecan. The value is 2/4=0.5.
+> OK.
+On the toilet 1, you see a soapbar 2.
+> OK.
+You pick up the soapbar 2 from the toilet 1.
+> critic: Now I take the second soapbar. My current state satisfies the first three of the four sub-goals: take the first soapbar, put the first soapbar in the garbagecan, and take the second soapbar. The value is 3/4=0.75.
+> OK.
+On the garbagecan 1, you see a soapbar 1.
+> OK.
+You put the soapbar 2 in/on the garbagecan 1.
+
+STATUS: OK
+
+#####
+
+#####
+
+Environment #100: Success
+
+#####
+
+#####
+
+Environment #101:
+
+
+Your memory for the task below:
+Trial 0:
+In this environment, my critic assigned a 1/3 value after taking a spraybottle and a 2/3 value after putting the spraybottle in the cabinet. However, the task is to take, clean a soapbar and put it in the cabinet. I didn't find the soapbar in this trial. In the next trial, I will explore other locations to find a soapbar, including cabinet 1, countertop 1, handtowelholder 1-2, toiletpaperhanger 1, and towelholder 1, etc.
+Trial 1:
+In this environment, my critic assigned a 1/3 value after taking a soapbottle and a 2/3 value after putting the soapbottle in the garbagecan. However, the task is to clean a soapbar and put it in the cabinet. I noticed that the soapbar was found on the toilet 1. In the next trial, I will go to toilet 1 to take the soapbar, then go to a sinkbasin to clean the soapbar, and finally put it in a cabinet.
+Here is the task:
+You are in the middle of a room. Looking quickly around you, you see a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 2, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.
+Your task is to: clean some soapbar and put it in cabinet.
+> OK.
+On the toilet 1, you see a soapbar 1, and a spraybottle 3.
+> OK.
+You pick up the soapbar 1 from the toilet 1.
+> critic: Now I take a soapbar. My current state satisfies the first of the three sub-goals: take a soapbar. The value is 1/3=0.333.
+> OK.
+On the sinkbasin 1, you see nothing.
+> OK.
+You clean the soapbar 1 using the sinkbasin 1.
+> critic: Now I clean the soapbar. My current state satisfies the first two of the three sub-goals: take the soapbar and clean the soapbar with sinkbasin. The value is 2/3=0.667.
+> OK.
+The cabinet 1 is closed.
+> OK.
+You open the cabinet 1. The cabinet 1 is open. In it, you see a soapbottle 2.
+> OK.
+You put the soapbar 1 in/on the cabinet 1.
+
+STATUS: OK
+
+#####
+
+#####
+
+Environment #102: Success
+
+#####
+
+#####
+
+Environment #103: Success
+
+#####
+
+#####
+
+Environment #104:
+
+
+Your memory for the task below:
+Trial 0:
+In this environment, my critic assigned a 1/3 value after taking a pan. However, the task is to take and heat an apple. I didn't find the apple in this trial. In the next trial, I will explore other locations to find an apple, including cabinet 3, cabinet 5, coffeemachine 1, countertop 2-3, drawer 1-3, shelf 1-3, stoveburner 1-2 and 4, etc.
+Trial 1:
+In this environment, my critic assigned a 1/3 value after taking a pan. However, the task is to take and heat an apple. I didn't find the apple in this trial. In the next trial, I will explore other locations to find an apple, including cabinet 4, cabinet 6, microwave 1, garbagecan 1, sinkbasin 1, stoveburner 3, and toaster 1, etc.
+Here is the task:
+You are in the middle of a room. Looking quickly around you, you see a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.
+Your task is to: heat some apple and put it in garbagecan.
+> critic: My task requires three sub-goals in order: take an apple, heat the apple with microwave, and put the apple in the garbagecan. My current state satisfies zero of the three sub-goals. The value is 0/3=0.
+> OK.
+On the cabinet 4, you see a mug 1, and a soapbottle 2.
+> OK.
+The cabinet 6 is closed.
+> OK.
+You open the cabinet 6. The cabinet 6 is open. In it, you see nothing.
+> OK.
+On the sinkbasin 1, you see a egg 3, a egg 2, a potato 2, and a tomato 2.
+> OK.
+On the stoveburner 3, you see a pan 2.
+> critic: Now I take a pan. My current state satisfies the first of the three sub-goals: take a pan. The value is 1/3=0.333.
+> OK.
+You pick up the pan 2 from the stoveburner 3.
+> critic: Now I take a pan. My current state satisfies the first of the three sub-goals: take a pan. The value is 1/3=0.333.
+> OK.
+The microwave 1 is closed.
+> OK.
+Nothing happens.
+> OK.
+Nothing happens.
+> OK.
+You open the microwave 1. The microwave 1 is open. In it, you see nothing.
+> OK.
+The fridge 1 is closed.
+> OK.
+You open the fridge 1. The fridge 1 is open. In it, you see a bowl 1, a bread 1, a cup 1, a lettuce 2, and a potato 1.
+> OK.
+Nothing happens.
+> OK.
+The cabinet 2 is closed.
+> OK.
+You open the cabinet 2. The cabinet 2 is open. In it, you see a plate 1.
+> OK.
+The microwave 1 is open. In it, you see nothing.
+> OK.
+On the cabinet 3, you see a saltshaker 1, and a vase 1.
+> OK.
+Nothing happens.
+> OK.
+On the shelf 3, you see nothing.
+> OK.
+On the shelf 2, you see a peppershaker 2, a peppershaker 1, and a vase 2.
+
+STATUS: FAIL
+
+#####
+
+#####
+
+Environment #105:
+
+
+Your memory for the task below:
+Trial 0:
+In this environment, my critic assigned a 1/4 value after taking a bowl and a 2/4 value after putting the bowl on the shelf. However, the task is to put two cds in the safe. I didn't find any cds in this trial. In the next trial, I will explore other locations to find cds, including desk 1-2, bed 1, garbagecan 1, laundryhamper 1, and all drawers and shelves.
+Trial 1:
+In this environment, my critic incorrectly assigned a 1/4 value after taking a bowl and a 2/4 value after putting the bowl on the shelf. However, the task is to put two cds in the safe. I noticed that the cds were found on the desk 2. In the next trial, I will go to desk 2 to take the cds, then go to the safe to put the cds in.
+Here is the task:
+You are in the middle of a room. Looking quickly around you, you see a bed 1, a desk 2, a desk 1, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a laundryhamper 1, a safe 1, a shelf 6, a shelf 5, a shelf 4, a shelf 3, a shelf 2, and a shelf 1.
+Your task is to: put two cd in safe.
+> critic: My task requires four sub-goals in order: take the first cd, put the first cd in the safe, take the second cd, and put the second cd in the safe. My current state satisfies zero of the four sub-goals. The value is 0/4=0.
+> OK.
+On the desk 2, you see a alarmclock 3, a cd 2, a cd 1, a cellphone 3, a cellphone 2, a creditcard 1, and a mug 1.
+> OK.
+You pick up the cd 1 from the desk 2.
+> critic: Now I take the first cd. My current state satisfies the first of the four sub-goals: take the first cd. The value is 1/4=0.25.
+> OK.
+On the drawer 5, you see nothing.
+> OK.
+The safe 1 is closed.
+> OK.
+You open the safe 1. The safe 1 is open. In it, you see a cellphone 1.
+> OK.
+You put the cd 1 in/on the safe 1.
+> critic: Now I put the first cd in the safe. My current state satisfies the first two of the four sub-goals: take the first cd and put the first cd in the safe. The value is 2/4=0.5.
+> OK.
+On the desk 2, you see a alarmclock 3, a cd 2, a cellphone 3, a cellphone 2, a creditcard 1, and a mug 1.
+> OK.
+You pick up the cd 2 from the desk 2.
+> critic: Now I take the second cd. My current state satisfies the first three of the four sub-goals: take the first cd, put the first cd in the safe, and take the second cd. The value is 3/4=0.75.
+> OK.
+The safe 1 is open. In it, you see a cd 1, and a cellphone 1.
+> OK.
+You put the cd 2 in/on the safe 1.
+
+STATUS: OK
+
+#####
+
+#####
+
+Environment #106: Success
+
+#####
+
+#####
+
+Environment #107:
+
+
+Your memory for the task below:
+Trial 0:
+In this environment, my critic assigned a 1/3 value after taking a handtowel. However, the task is to clean a cloth. I didn't clean the handtowel in this trial. In the next trial, I will go to sinkbasin 1 or sinkbasin 2 to clean the handtowel after taking it from the handtowelholder.
+Trial 1:
+In this environment, my critic assigned a 1/3 value after taking a handtowel. However, the task is to clean a cloth and put it in the cabinet. I didn't clean the handtowel or put it in the cabinet in this trial. In the next trial, I will go to sinkbasin 1 or sinkbasin 2 to clean the handtowel after taking it from the handtowelholder, then I will put it in one of the cabinets.
+Here is the task:
+You are in the middle of a room. Looking quickly around you, you see a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a countertop 1, a garbagecan 1, a handtowelholder 2, a handtowelholder 1, a sinkbasin 2, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.
+Your task is to: clean some cloth and put it in cabinet.
+> critic: My task requires four sub-goals in order: take a cloth, clean the cloth with sinkbasin, put the cloth in the cabinet, and close the cabinet. My current state satisfies zero of the four sub-goals. The value is 0/4=0.
+> OK.
+On the countertop 1, you see a candle 2, a soapbar 1, a soapbottle 2, a soapbottle 1, and a spraybottle 1.
+> OK.
+On the towelholder 1, you see a towel 1.
+> OK.
+You pick up the towel 1 from the towelholder 1.
+> critic: Now I take a cloth. My current state satisfies the first of the four sub-goals: take a cloth. The value is 1/4=0.25.
+> OK.
+On the sinkbasin 1, you see nothing.
+> OK.
+Nothing happens.
+> OK.
+On the sinkbasin 2, you see nothing.
+> OK.
+Nothing happens.
+> OK.
+On the handtowelholder 1, you see nothing.
+> OK.
+On the countertop 1, you see a candle 2, a soapbar 1, a soapbottle 2, a soapbottle 1, and a spraybottle 1.
+> OK.
+The cabinet 3 is closed.
+> OK.
+You open the cabinet 3. The cabinet 3 is open. In it, you see a soapbar 2.
+> OK.
+On the toiletpaperhanger 1, you see nothing.
+> OK.
+On the handtowelholder 1, you see nothing.
+> OK.
+Nothing happens.
+> OK.
+On the sinkbasin 1, you see nothing.
+> OK.
+Nothing happens.
+> OK.
+On the sinkbasin 2, you see nothing.
+> OK.
+Nothing happens.
+> OK.
+On the handtowelholder 1, you see nothing.
+> OK.
+On the towelholder 1, you see nothing.
+
+STATUS: FAIL
+
+#####
+
+#####
+
+Environment #108: Success
+
+#####
+
+#####
+
+Environment #109: Success
+
+#####
+
+#####
+
+Environment #110: Success
+
+#####
+
+#####
+
+Environment #111: Success
+
+#####
+
+#####
+
+Environment #112: Success
+
+#####
+
+#####
+
+Environment #113: Success
+
+#####
+
+#####
+
+Environment #114: Success
+
+#####
+
+#####
+
+Environment #115: Success
+
+#####
+
+#####
+
+Environment #116:
+
+
+Your memory for the task below:
+Trial 0:
+In this environment, my critic assigned a 1/3 value after taking a bread and a butterknife. However, the task is to take and heat an egg. I didn't find the egg in this trial. In the next trial, I will explore other locations to find an egg, including cabinet 1-6, coffeemachine 1, countertop 1-3, drawer 1-3, fridge 1, shelf 1-3, stoveburner 1-4 and toaster 1, etc.
+Trial 1:
+In this environment, my critic failed to correctly identify the task at hand. The task was to take and heat an egg, but I didn't find or take an egg during the trial. In the next trial, I will focus on finding an egg first, possibly in the fridge or on the countertops. Once I have the egg, I will heat it in the microwave before disposing of it in the garbage can.
+Here is the task:
+You are in the middle of a room. Looking quickly around you, you see a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.
+Your task is to: heat some egg and put it in garbagecan.
+> critic: My task requires three sub-goals in order: take an egg, heat the egg with microwave, and put the egg in the garbagecan. My current state satisfies zero of the three sub-goals. The value is 0/3=0.
+> OK.
+The fridge 1 is closed.
+> OK.
+You open the fridge 1. The fridge 1 is open. In it, you see a apple 2, a bowl 2, a bowl 1, a bread 1, a lettuce 1, a plate 1, and a tomato 1.
+> OK.
+On the sinkbasin 1, you see a cup 3, a potato 3, a potato 1, a spoon 3, and a tomato 2.
+> OK.
+On the countertop 1, you see a egg 1, and a soapbottle 2.
+> OK.
+You pick up the egg 1 from the countertop 1.
+> critic: Now I take an egg. My current state satisfies the first of the three sub-goals: take an egg. The value is 1/3=0.333.
+> OK.
+The microwave 1 is closed.
+> OK.
+You heat the egg 1 using the microwave 1.
+> critic: Now I heat the egg. My current state satisfies the first two of the three sub-goals: take an egg and heat the egg with microwave. The value is 2/3=0.667.
+> OK.
+On the garbagecan 1, you see a lettuce 3, and a papertowelroll 1.
+> OK.
+You put the egg 1 in/on the garbagecan 1.
+
+STATUS: OK
+
+#####
+
+#####
+
+Environment #117: Success
+
+#####
+
+#####
+
+Environment #118: Success
+
+#####
+
+#####
+
+Environment #119: Success
+
+#####
+
+#####
+
+Environment #120:
+
+
+Your memory for the task below:
+Trial 0:
+In this environment, my critic assigned a 3/4 value after taking the same peppershaker from the drawer that I had previously placed there. However, the task is to find two different peppershakers. I didn't find the second peppershaker in this trial. In the next trial, I will explore other locations to find a second peppershaker, including cabinet 1-4, countertop 1-2, drawer 2-3, fridge 1, microwave 1, shelf 1-3, stoveburner 1-4 and toaster 1, etc.
+Trial 1:
+In this environment, my critic assigned a 3/4 value after finding the second peppershaker. However, the task is to put the second peppershaker in the drawer, which I failed to do. I noticed that the second peppershaker was found on the countertop 3. In the next trial, after finding the second peppershaker, I will ensure to put it in the drawer to complete the task.
+Here is the task:
+You are in the middle of a room. Looking quickly around you, you see a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.
+Your task is to: find two peppershaker and put them in drawer.
+> critic: My task requires four sub-goals in order: find the first peppershaker, put the first peppershaker in the drawer, find the second peppershaker, and put the second peppershaker in the drawer. My current state satisfies zero of the four sub-goals. The value is 0/4=0.
+> OK.
+On the countertop 3, you see a butterknife 3, a cellphone 1, a fork 1, a houseplant 1, a knife 2, a knife 1, a lettuce 2, a peppershaker 4, a pot 2, a statue 2, and a statue 1.
+> OK.
+You pick up the peppershaker 4 from the countertop 3.
+> critic: Now I find the first peppershaker. My current state satisfies the first of the four sub-goals: find the first peppershaker. The value is 1/4=0.25.
+> OK.
+The drawer 1 is closed.
+> OK.
+You open the drawer 1. The drawer 1 is open. In it, you see a creditcard 1, and a spatula 1.
+> OK.
+You put the peppershaker 4 in/on the drawer 1.
+> critic: Now I put the first peppershaker in the drawer. My current state satisfies the first two of the four sub-goals: find the first peppershaker and put the first peppershaker in the drawer. The value is 2/4=0.5.
+> OK.
+On the countertop 1, you see a egg 1, and a potato 3.
+> OK.
+On the countertop 2, you see a apple 1, a bread 2, a bread 1, a butterknife 2, a butterknife 1, a glassbottle 2, a papertowelroll 1, a potato 1, and a soapbottle 1.
+> OK.
+On the countertop 3, you see a butterknife 3, a cellphone 1, a fork 1, a houseplant 1, a knife 2, a knife 1, a lettuce 2, a pot 2, a statue 2, and a statue 1.
+> OK.
+On the cabinet 1, you see a dishsponge 1, a glassbottle 1, and a peppershaker 2.
+> OK.
+You pick up the peppershaker 2 from the cabinet 1.
+> critic: Now I find the second peppershaker. My current state satisfies the first three of the four sub-goals: find the first peppershaker, put the first peppershaker in the drawer, and find the second peppershaker. The value is 3/4=0.75.
+> OK.
+The drawer 1 is open. In it, you see a creditcard 1, a peppershaker 4, and a spatula 1.
+> OK.
+You put the peppershaker 2 in/on the drawer 1.
+
+STATUS: OK
+
+#####
+
+#####
+
+Environment #121: Success
+
+#####
+
+#####
+
+Environment #122: Success
+
+#####
+
+#####
+
+Environment #123: Success
+
+#####
+
+#####
+
+Environment #124: Success
+
+#####
+
+#####
+
+Environment #125: Success
+
+#####
+
+#####
+
+Environment #126: Success
+
+#####
+
+#####
+
+Environment #127: Success
+
+#####
+
+#####
+
+Environment #128: Success
+
+#####
+
+#####
+
+Environment #129: Success
+
+#####
+
+#####
+
+Environment #130: Success
+
+#####
+
+#####
+
+Environment #131:
+
+
+Your memory for the task below:
+Trial 0:
+In this environment, my critic assigned a 1/3 value after taking a pan. However, the task is to take and heat an apple. I noticed that the apple was found in the fridge 1 and on the sinkbasin 1. In the next trial, I will go to either the fridge 1 or sinkbasin 1 to take the apple, then go to the microwave to heat the apple, and finally put the heated apple back in the fridge.
+Trial 1:
+In this environment, my critic assigned a 1/3 value after taking a pan and a 2/3 value after taking an apple. However, the task is to heat an apple and put it in the fridge. I heated the apple but failed to put it back in the fridge. In the next trial, I will follow the same steps but ensure to put the heated apple back in the fridge.
+Here is the task:
+You are in the middle of a room. Looking quickly around you, you see a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.
+Your task is to: heat some apple and put it in fridge.
+> critic: My task requires three sub-goals in order: take an apple, heat the apple with microwave, and put the apple in the fridge. My current state satisfies zero of the three sub-goals. The value is 0/3=0.
+> OK.
+The fridge 1 is closed.
+> OK.
+You open the fridge 1. The fridge 1 is open. In it, you see a apple 1, a bowl 3, a cup 2, a cup 1, a egg 3, a lettuce 1, a potato 2, a potato 1, and a tomato 1.
+> OK.
+You pick up the apple 1 from the fridge 1.
+> critic: Now I take an apple. My current state satisfies the first of the three sub-goals: take an apple. The value is 1/3=0.333.
+> OK.
+The microwave 1 is closed.
+> OK.
+You heat the apple 1 using the microwave 1.
+> critic: Now I heat the apple. My current state satisfies the first two of the three sub-goals: take an apple and heat the apple with microwave. The value is 2/3=0.667.
+> OK.
+The fridge 1 is open. In it, you see a bowl 3, a cup 2, a cup 1, a egg 3, a lettuce 1, a potato 2, a potato 1, and a tomato 1.
+> OK.
+You put the apple 1 in/on the fridge 1.
+
+STATUS: OK
+
+#####
+
+#####
+
+Environment #132: Success
+
+#####
+
+#####
+
+Environment #133:
+
+
+Your memory for the task below:
+Trial 0:
+In this environment, my critic assigned a 1/2 value after taking a bowl. However, the task is to take and examine a book with the desklamp. I didn't find the book in this trial. In the next trial, I will explore other locations to find a book, including desk 2, drawer 3-6, shelf 4, and safe 1, etc.
+Trial 1:
+In this environment, my critic assigned a 1/2 value after taking a keychain. However, the task is to take and examine a book with the desklamp. I didn't find the book in this trial. In the next trial, I will explore other locations to find a book, including desk 2, drawer 3-6, shelf 4, and safe 1, etc.
+Here is the task:
+You are in the middle of a room. Looking quickly around you, you see a bed 1, a desk 2, a desk 1, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a laundryhamper 1, a safe 1, a shelf 6, a shelf 5, a shelf 4, a shelf 3, a shelf 2, and a shelf 1.
+Your task is to: examine the book with the desklamp.
+> critic: My task requires two sub-goals in order: take a book and use the desklamp. My current state satisfies zero of the two sub-goals. The value is 0/2=0.
+> OK.
+On the desk 1, you see a alarmclock 1, a bowl 2, a cd 1, a cellphone 3, a desklamp 1, a mug 1, a pen 1, and a pencil 1.
+> OK.
+You pick up the pen 1 from the desk 1.
+> critic: Now I take a pen. My current state satisfies the first of the two sub-goals: take a pen. The value is 1/2=0.5.
+> OK.
+On the desk 2, you see a alarmclock 3, a bowl 3, a cd 3, a mug 2, and a pencil 3.
+> OK.
+On the shelf 4, you see a alarmclock 2.
+> OK.
+On the shelf 5, you see nothing.
+> OK.
+On the shelf 6, you see nothing.
+> OK.
+The drawer 1 is closed.
+> OK.
+You open the drawer 1. The drawer 1 is open. In it, you see nothing.
+> OK.
+On the drawer 2, you see a cellphone 2.
+> OK.
+Nothing happens.
+> OK.
+Nothing happens.
+> OK.
+Nothing happens.
+> OK.
+Nothing happens.
+> OK.
+The drawer 4 is closed.
+> OK.
+You open the drawer 4. The drawer 4 is open. In it, you see nothing.
+> OK.
+On the drawer 5, you see nothing.
+> OK.
+The drawer 6 is closed.
+> OK.
+You open the drawer 6. The drawer 6 is open. In it, you see nothing.
+> OK.
+The safe 1 is closed.
+> OK.
+You open the safe 1. The safe 1 is open. In it, you see a keychain 2, and a keychain 1.
+
+STATUS: FAIL
+
+#####
+
+-----
+SUCCESS: 127
+ADDITIONAL SUCCESS: 15
+FAIL: 7
+TOTAL: 134
+ACCURACY: 0.95
+-----

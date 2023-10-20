@@ -1,0 +1,964 @@
+[
+    {
+        "name": "env_0",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a knife. However, the task is to take and cool a tomato. I noticed that the tomato was found on countertop 2. In the next trial, I will go to countertop 2 to take the tomato, then go to the fridge to cool the tomato, and finally put the cooled tomato in the microwave."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_1",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_2",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_3",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_4",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a soapbar and a 2/3 value after putting the soapbar in the cabinet. However, the task is to take and clean a cloth. I noticed that the cloth was found in cabinet 2. In the next trial, I will go to cabinet 2 to take the cloth, then go to a sinkbasin to clean the cloth."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_5",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_6",
+        "memory": [
+            "In this environment, my critic assigned a 1/2 value after turning on the desklamp and a 2/2 value after turning on the desklamp again. However, the task is to examine the alarmclock with the desklamp. I noticed that the alarmclock was found on the desk 2. In the next trial, I will first go to desk 2 to take the alarmclock and then use the desklamp on desk 1 to examine it."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_7",
+        "memory": [
+            "In this environment, my critic did not assign any value as I was unable to find a watch. The task is to take a watch and put it on the safe. I didn't find the watch in this trial. In the next trial, I will explore other locations to find a watch, including cabinet 1-4, drawer 5, dresser 1, garbagecan 1, sidetable 1, sofa 1, and armchair 1."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_8",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_9",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_10",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_11",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_12",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_13",
+        "memory": [
+            "In this environment, my critic assigned a 1/2 value after taking a pen and a keychain. However, the task is to take and put a pencil in the shelf. I didn't find the pencil in this trial. In the next trial, I will explore other locations to find a pencil, including drawer 6, desk 1, garbagecan 1, laundryhamper 1, safe 1, shelf 5-6, and bed 1, etc."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_14",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_15",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_16",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_17",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_18",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_19",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_20",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a soapbottle. However, the task is to take and heat an apple. I didn't find the apple in this trial. In the next trial, I will explore other locations to find an apple, including cabinet 1-4, countertop 1-2, drawer 1-2, shelf 1-3, stoveburner 2-4 and toaster 1, etc.",
+            "In this environment, my critic failed to generate any value as I didn't find or take an apple, which is the first step in the task. The task is to take an apple, heat it, and then put it in the fridge. I didn't find the apple in this trial. In the next trial, I will explore other locations to find an apple, including cabinet 5-6, countertop 3, drawer 3, fridge 1, microwave 1, sinkbasin 1, stoveburner 1, and coffeemachine 1, etc.",
+            "In this environment, my critic assigned a 1/3 value after taking a soapbottle. However, the task is to take and heat an apple. I didn't find the apple in this trial. In the next trial, I will explore other locations to find an apple, including cabinet 5-6, countertop 3, drawer 3, fridge 1, microwave 1, sinkbasin 1, stoveburner 1, and coffeemachine 1, etc.",
+            "In this environment, my critic assigned a 0/3 value after taking a soapbottle. However, the task is to take and heat an apple. I noticed that the apple was found on the sinkbasin 1 and in the garbagecan 1. In the next trial, I will go to sinkbasin 1 to take the apple, then go to the microwave to heat the apple, and finally put the heated apple in the fridge."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_21",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_22",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a pan. However, the task is to take and cool a tomato. I didn't find the tomato in this trial. In the next trial, I will explore other locations to find a tomato, including cabinet 1-6, coffeemachine 1, countertop 1-3, drawer 1-3, garbagecan 1, microwave 1, shelf 1-3, sinkbasin 1, stoveburner 1-4 and toaster 1, etc.",
+            "In this environment, my critic assigned a 0/3 value after taking a dishsponge. However, the task is to take and cool a tomato. I noticed that the tomato was found in the garbagecan 1. In the next trial, I will go to garbagecan 1 to take the tomato, then go to the fridge to cool the tomato, and finally put the cooled tomato in the microwave."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_23",
+        "memory": [
+            "In this environment, my critic assigned a 1/4 value after taking a box and a 2/4 value after putting the box on the dresser. However, the task is to put two pillows in the sofa. I didn't find any pillows in this trial. In the next trial, I will explore other locations to find a pillow, including cabinet 1-4, drawer 1-5, garbagecan 1, safe 1, shelf 3, 5, 11, sidetable 1, and armchair 1, etc."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_24",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_25",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_26",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_27",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_28",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_29",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_30",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_31",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_32",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_33",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_34",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_35",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_36",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_37",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_38",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_39",
+        "memory": [
+            "In this environment, my critic assigned a 1/2 value after taking a pen. However, the task is to take and put a pencil in the shelf. I didn't find the pencil in this trial. In the next trial, I will explore other locations to find a pencil, including drawer 2, drawer 3, drawer 5, drawer 6, desk 1, desk 2, garbagecan 1, laundryhamper 1, safe 1, and shelf 1-5."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_40",
+        "memory": [
+            "In this environment, my critic assigned a 1/4 value after finding the first toiletpaper and a 3/4 value after finding the second toiletpaper. However, the task is to find two toiletpapers and put them in the cabinet. I noticed that I put the first toiletpaper on the toiletpaperhanger instead of the cabinet. In the next trial, I will ensure to put both toiletpapers in the cabinet after finding them.",
+            "In this environment, my critic assigned a 1/4 value after finding the first toiletpaper and a 3/4 value after finding the second toiletpaper. However, the task is to find two toiletpapers and put them in the cabinet. I noticed that I put the first toiletpaper on the toiletpaperhanger and the second toiletpaper on the sinkbasin instead of the cabinet. Also, I mistakenly identified soapbars as toiletpapers. In the next trial, I will ensure to correctly identify toiletpapers and put both toiletpapers in the cabinet after finding them."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_41",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a spatula and a 2/3 value after cleaning a pot. However, the task is to take and clean a bowl. I noticed that the bowl was found on cabinet 1. In the next trial, I will go to cabinet 1 to take the bowl, then go to a sinkbasin to clean the bowl."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_42",
+        "memory": [
+            "In this environment, my critic assigned a 1/4 value after taking a spatula and a 3/4 value after taking a spoon. However, the task is to put two peppershakers in the drawer. I noticed that one peppershaker was found on the countertop 2 and another one in the cabinet 1. In the next trial, I will first go to countertop 2 to take the first peppershaker, then go to cabinet 1 to take the second peppershaker, and finally put them in the drawer.",
+            "In this environment, my critic assigned a 1/4 value after taking a peppershaker. However, I failed to put the peppershaker in the drawer and take the second peppershaker. I noticed that one peppershaker was found on the countertop 2 and another one in the cabinet 1. In the next trial, I will first go to countertop 2 to take the first peppershaker, put it in the drawer, then go to cabinet 1 to take the second peppershaker, and finally put it in the drawer."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_43",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_44",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_45",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_46",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a candle. However, the task is to take and clean a cloth. I noticed that a handtowel was found on the handtowelholder 1. In the next trial, I will go to handtowelholder 1 to take the handtowel, then go to a sinkbasin to clean the handtowel."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_47",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_48",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_49",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_50",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a pot and a knife. However, the task is to take and cool a mug. I noticed that the mug was found on the coffeemachine 1. In the next trial, I will go to coffeemachine 1 to take the mug, then go to a fridge to cool the mug, and finally put it in a cabinet."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_51",
+        "memory": [
+            "In this environment, my critic assigned a 1/4 value after taking a handtowel. However, the task is to take and put two soapbars in the garbagecan. I didn't find any soapbars in this trial. In the next trial, I will explore other locations to find a soapbar, including cabinet 1-4, countertop 1, sinkbasin 1-2, toilet 1, toiletpaperhanger 1, and towelholder 1, etc.",
+            "In this environment, my critic assigned a 1/4 value after taking a towel. However, the task is to take and put two soapbars in the garbagecan. I noticed that two soapbars were found on the countertop 1. In the next trial, I will go to countertop 1 to take the first soapbar, put it in the garbagecan, then take the second soapbar and put it in the garbagecan as well."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_52",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a mug and a 2/3 value after heating the mug. However, the task is to put a hot cup in the cabinet. I noticed that I put the mug in the cabinet and then took it out again, which is unnecessary and does not contribute to the task completion. In the next trial, after heating the mug, I will directly put it in the cabinet without taking it out again.",
+            "In this environment, my critic assigned a 1/3 value after taking a mug and a 2/3 value after heating the mug. However, the task is to put a hot cup in the cabinet. I noticed that I put the mug in the cabinet and then took it out again, which is unnecessary and does not contribute to the task completion. In the next trial, after heating the mug, I will directly put it in the cabinet without taking it out again.",
+            "In this environment, my critic assigned a 1/3 value after taking a mug and a 2/3 value after heating the mug. However, the task is to put a hot cup in the cabinet. I noticed that I put the mug in the cabinet and then took it out again, which is unnecessary and does not contribute to the task completion. In the next trial, after heating the mug, I will directly put it in the cabinet without taking it out again."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_53",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_54",
+        "memory": [
+            "In this environment, my critic assigned a 2/3 value after cleaning the plate and placing it on the cabinet. However, the task is to clean a plate and put it on the countertop. In the next trial, I will ensure to place the cleaned plate on the countertop instead of the cabinet.",
+            "In this environment, my critic assigned a 1/3 value after taking a knife. However, the task is to clean a plate and put it on the countertop. I noticed that the plate was found on the countertop 3. In the next trial, I will go to countertop 3 to take the plate, then go to a sinkbasin to clean the plate, and finally put the cleaned plate on the countertop."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_55",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_56",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a cup and a 2/3 value after cleaning the cup. However, the task is to take and clean a mug, not a cup. I noticed that I didn't find a mug in this trial. In the next trial, I will explore other locations to find a mug, including cabinet 1-6, countertop 1-3, drawer 2-3, fridge 1, microwave 1, shelf 1-3, stoveburner 1-4 and toaster 1, etc."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_57",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_58",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a pot. However, the task is to take and clean a pan. I noticed that the pan was found on stoveburner 2. In the next trial, I will go to stoveburner 2 to take the pan, then go to a sinkbasin to clean the pan."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_59",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a saltshaker. However, the task is to take and heat a cup. I noticed that the cup was found in cabinet 6. In the next trial, I will go to cabinet 6 to take the cup, then go to the microwave to heat the cup, and finally put the hot cup in a cabinet."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_60",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_61",
+        "memory": [
+            "In this environment, my critic assigned a 1/4 value after taking a cellphone. However, the task is to put two keychains in the safe. I didn't find any keychains in this trial. In the next trial, I will explore other locations to find a keychain, including cabinet 1-3, drawer 1-4, garbagecan 1, sidetable 1, armchair 1, sofa 1, and shelf 11-12, etc.",
+            "In this environment, my critic assigned a 1/4 value after taking a cellphone. However, the task is to put two keychains in the safe. I noticed that a keychain was found on the sidetable 1. In the next trial, I will first go to sidetable 1 to take the first keychain and then explore other locations to find a second keychain, including cabinet 1-4, drawer 1-5, shelf 1-12, armchair 1, sofa 1, and garbagecan 1."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_62",
+        "memory": [
+            "In this environment, my critic maintained a 0/4 value throughout the trial as I was unable to find any CDs. However, the task is to find two CDs and put them in the safe. I explored the shelves and some drawers but didn't find any CDs. In the next trial, I will explore other locations to find CDs, including the remaining drawers, desk 1-2, bed 1, garbagecan 1, and laundryhamper 1."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_63",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a spoon and a 1/3 value after taking a knife. However, the task is to take and clean a knife. I noticed that the knife was found on countertop 3. In the next trial, I will go to countertop 3 to take the knife, then go to a sinkbasin to clean the knife."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_64",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_65",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_66",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_67",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_68",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_69",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_70",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_71",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_72",
+        "memory": [
+            "In this environment, my critic assigned a 1/4 value after taking a cellphone. However, the task is to take and put two keychains in the safe. I noticed that one keychain was found in drawer 4. I didn't find the second keychain in this trial. In the next trial, I will first go to drawer 4 to take the first keychain and then explore other locations to find a second keychain, including drawer 1-3, drawer 5, cabinet 1-4, shelf 1-12, and safe 1.",
+            "In this environment, my critic assigned a 1/4 value after taking the first keychain from drawer 4 and a 2/4 value after putting the first keychain in the safe. However, I failed to put the second keychain in the safe. I noticed that the second keychain was found on the sofa 1. In the next trial, I will first go to drawer 4 to take the first keychain, then go to the safe to put the first keychain, then go to the sofa 1 to take the second keychain, and finally go back to the safe to put the second keychain.",
+            "In this environment, my critic failed to assign any value as I didn't find any keychain. The task is to put two keychains in the safe. I didn't find any keychain in this trial. In the next trial, I will explore other locations to find the keychains, including drawer 4-5, cabinet 1-4, shelf 1-12, and safe 1."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_73",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_74",
+        "memory": [
+            "In this environment, my critic assigned a 1/4 value after taking a box. However, the task is to put two pillows in the sofa. I didn't find any pillows in this trial. In the next trial, I will explore other locations to find a pillow, including cabinet 1-4, dresser 1, garbagecan 1, safe 1, sidetable 1, armchair 1, and shelf 9-12, etc."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_75",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a cellphone. However, the task is to take and heat a cup. I noticed that the cup was found on the coffeemachine 1 and I successfully heated it and put it in the cabinet. However, I then picked up a cellphone which was not part of the task. In the next trial, I will stick to the task of taking a cup, heating it, and putting it in the cabinet without picking up any other items.",
+            "In this environment, my critic assigned a 1/3 value after taking a mug from the coffeemachine 1 and a 2/3 value after heating it. However, after putting the mug in the cabinet 1, I picked up a pot from the stoveburner 3, which was not part of the task. This led to a confusion in the task sequence. In the next trial, I will stick to the task of taking a cup, heating it, and putting it in the cabinet without picking up any other items.",
+            "In this environment, my critic assigned a 1/3 value after taking a mug and a 2/3 value after heating it. However, after putting the mug in the cabinet, I picked up a pot which was not part of the task. This led to a confusion in the task sequence. In the next trial, I will stick to the task of taking a cup, heating it, and putting it in the cabinet without picking up any other items.",
+            "In this environment, my critic assigned a 1/3 value after taking a mug and a 2/3 value after heating it. However, after putting the mug in the cabinet, I picked up a pan which was not part of the task. This led to a confusion in the task sequence. In the next trial, I will stick to the task of taking a cup, heating it, and putting it in the cabinet without picking up any other items.",
+            "In this environment, my critic assigned a 1/3 value after taking a mug, a 2/3 value after heating it, and a full value after putting it in the cabinet. However, after completing the task, I continued to interact with the environment, picking up a pot and a pan which were not part of the task. This led to a confusion in the task sequence. In the next trial, I will stick to the task of taking a cup, heating it, and putting it in the cabinet without picking up any other items. Once the task is completed, I should stop further interactions.",
+            "In this environment, my critic correctly assigned values after each sub-goal was achieved. However, after completing the task, I continued to interact with the environment, picking up another mug and heating it, which was not part of the task. This led to a confusion in the task sequence. In the next trial, I will stick to the task of taking a cup, heating it, and putting it in the cabinet without picking up any other items. Once the task is completed, I should stop further interactions."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_76",
+        "memory": [
+            "In this environment, my critic assigned a 1/2 value after taking a tomato and a dishsponge. However, the task is to take a saltshaker and put it in the drawer. I didn't find the saltshaker in this trial. In the next trial, I will explore other locations to find a saltshaker, including cabinet 1-6, coffeemachine 1, countertop 2-3, microwave 1, shelf 1-3, stoveburner 1-4 and toaster 1, etc.",
+            "In this environment, my critic assigned a 1/2 value after taking a tomato. However, the task is to take a saltshaker and put it in the drawer. I noticed that the saltshaker was found in cabinet 6. In the next trial, I will go to cabinet 6 to take the saltshaker and then go to a drawer to put the saltshaker in."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_77",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a pot. However, the task is to take and heat an egg. I noticed that the egg was found in the garbagecan 1. In the next trial, I will go to garbagecan 1 to take the egg, then go to the microwave to heat the egg."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_78",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_79",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_80",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_81",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_82",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a pan, a 2/3 value after cleaning the pan, and a 1 value after putting the pan in the cabinet. However, the task is to take, clean, and put a bowl in the cabinet. I didn't find the bowl in this trial. In the next trial, I will explore other locations to find a bowl, including cabinet 1, cabinet 4-6, coffeemachine 1, microwave 1, shelf 1-3, stoveburner 1-4, toaster 1, and drawer 2-3, etc."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_83",
+        "memory": [
+            "In this environment, my critic assigned a 1/2 value after taking a dishsponge. However, the task is to take a saltshaker. I didn't find the saltshaker in this trial. In the next trial, I will explore other locations to find a saltshaker, including cabinet 1-4, coffeemachine 1, countertop 1-3, microwave 1, shelf 1-3, stoveburner 1-4 and toaster 1, etc.",
+            "In this environment, my critic assigned a 0/2 value after taking a mug. However, the task is to take a saltshaker and put it in the drawer. I didn't find the saltshaker in this trial. In the next trial, I will explore other locations to find a saltshaker, including cabinet 5-6, drawer 2-3, fridge 1, garbagecan 1, shelf 1, and sinkbasin 1, etc."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_84",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_85",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_86",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_87",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_88",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_89",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a pot, a 2/3 value after cooling the pot, and a 1 value after putting the pot on the countertop. However, the task is to cool a pan, not a pot. I didn't find the pan in this trial. In the next trial, I will explore other locations to find a pan, including cabinet 1-6, drawer 1-3, shelf 1-3, stoveburner 2-4, and toaster 1, etc.",
+            "In this environment, my critic assigned a 1/3 value after taking a pan and a 2/3 value after cooling the pan. However, I failed to put the pan on the countertop, which is the final sub-goal. In the next trial, after cooling the pan, I will ensure to put the pan on the countertop to complete the task."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_90",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_91",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_92",
+        "memory": [
+            "In this environment, my critic assigned a 1/2 value after turning on the desklamp. However, the task is to examine the alarmclock with the desklamp. I noticed that the alarmclock was found on desk 2. In the next trial, I will first go to desk 2 to take the alarmclock and then use the desklamp to examine it."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_93",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_94",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a spoon. However, the task is to take and cool a mug. I noticed that the mug was found on countertop 1. In the next trial, I will go to countertop 1 to take the mug, then go to the fridge to cool the mug, and finally put the cooled mug in the coffeemachine."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_95",
+        "memory": [
+            "In this environment, my critic did not assign any value as I did not find or take a pencil. However, the task is to take a pencil and put it in the shelf. I noticed that a pen was found in drawer 6, but not a pencil. In the next trial, I will explore other locations to find a pencil, including desk 1-2, drawer 3-5, bed 1, laundryhamper 1, and safe 1."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_96",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_97",
+        "memory": [
+            "In this environment, my critic assigned a 1/2 value after taking a spraybottle and a 2/2 value after putting the spraybottle on the toilet. However, the task is to put a soapbottle on the toilet. I noticed that the soapbottle was found on the countertop 1. In the next trial, I will go to countertop 1 to take the soapbottle and then go to the toilet to put the soapbottle on it."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_98",
+        "memory": [
+            "In this environment, my critic assigned a 2/3 value after taking and cooling a cup. However, the task is to take and cool a mug. I noticed that the mug was found on countertop 1. In the next trial, I will go to countertop 1 to take the mug, then go to the fridge to cool the mug, and finally put the cooled mug in the coffeemachine."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_99",
+        "memory": [
+            "In this environment, my critic assigned a 1/4 value after taking a soapbottle and a 3/4 value after taking a cloth. However, the task is to put two soapbars in the garbagecan. I didn't find any soapbars in this trial. In the next trial, I will explore other locations to find a soapbar, including cabinet 3-4, sinkbasin 2, handtowelholder 1-2, toiletpaperhanger 1, and towelholder 1, etc.",
+            "In this environment, my critic assigned a 1/4 value after taking a cloth and a 3/4 value after taking a soapbar. However, the task is to put two soapbars in the garbagecan. I noticed that the soapbars were found on the toilet 1. In the next trial, I will go to toilet 1 to take the first soapbar, then go to the garbagecan to put it in, and repeat the process for the second soapbar."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_100",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_101",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a spraybottle and a 2/3 value after putting the spraybottle in the cabinet. However, the task is to take, clean a soapbar and put it in the cabinet. I didn't find the soapbar in this trial. In the next trial, I will explore other locations to find a soapbar, including cabinet 1, countertop 1, handtowelholder 1-2, toiletpaperhanger 1, and towelholder 1, etc.",
+            "In this environment, my critic assigned a 1/3 value after taking a soapbottle and a 2/3 value after putting the soapbottle in the garbagecan. However, the task is to clean a soapbar and put it in the cabinet. I noticed that the soapbar was found on the toilet 1. In the next trial, I will go to toilet 1 to take the soapbar, then go to a sinkbasin to clean the soapbar, and finally put it in a cabinet."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_102",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_103",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_104",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a pan. However, the task is to take and heat an apple. I didn't find the apple in this trial. In the next trial, I will explore other locations to find an apple, including cabinet 3, cabinet 5, coffeemachine 1, countertop 2-3, drawer 1-3, shelf 1-3, stoveburner 1-2 and 4, etc.",
+            "In this environment, my critic assigned a 1/3 value after taking a pan. However, the task is to take and heat an apple. I didn't find the apple in this trial. In the next trial, I will explore other locations to find an apple, including cabinet 4, cabinet 6, microwave 1, garbagecan 1, sinkbasin 1, stoveburner 3, and toaster 1, etc.",
+            "In this environment, my critic assigned a 1/3 value after taking a pan. However, the task is to take and heat an apple. I didn't find the apple in this trial. In the next trial, I will explore other locations to find an apple, including cabinet 1, cabinet 5, countertop 1-3, drawer 1-3, fridge 1, shelf 1-3, stoveburner 1-4, and toaster 1, etc.",
+            "In this environment, my critic assigned a 1/3 value after taking a pan. However, the task is to take and heat an apple. I didn't find the apple in this trial. In the next trial, I will explore other locations to find an apple, including cabinet 2, cabinet 6, coffeemachine 1, countertop 1-3, drawer 1-3, fridge 1, shelf 1-3, stoveburner 1-4, and toaster 1, etc.",
+            "In this environment, my critic assigned a 1/3 value after taking a pan. However, the task is to take and heat an apple. I didn't find the apple in this trial. In the next trial, I will explore other locations to find an apple, including cabinet 3, cabinet 5, countertop 1-3, drawer 1-3, fridge 1, shelf 1-3, stoveburner 1-4, and toaster 1, etc.",
+            "In this environment, my critic assigned a 1/3 value after taking an egg. However, the task is to take and heat an apple. I noticed that the apple was found in the garbagecan 1. In the next trial, I will go to garbagecan 1 to take the apple, then go to the microwave to heat the apple."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_105",
+        "memory": [
+            "In this environment, my critic assigned a 1/4 value after taking a bowl and a 2/4 value after putting the bowl on the shelf. However, the task is to put two cds in the safe. I didn't find any cds in this trial. In the next trial, I will explore other locations to find cds, including desk 1-2, bed 1, garbagecan 1, laundryhamper 1, and all drawers and shelves.",
+            "In this environment, my critic incorrectly assigned a 1/4 value after taking a bowl and a 2/4 value after putting the bowl on the shelf. However, the task is to put two cds in the safe. I noticed that the cds were found on the desk 2. In the next trial, I will go to desk 2 to take the cds, then go to the safe to put the cds in."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_106",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a pan. However, the task is to take and heat a mug. I noticed that the mug was found on cabinet 4. In the next trial, I will go to cabinet 4 to take the mug, then go to the microwave to heat the mug, and finally put the heated mug in a cabinet."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_107",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a handtowel. However, the task is to clean a cloth. I didn't clean the handtowel in this trial. In the next trial, I will go to sinkbasin 1 or sinkbasin 2 to clean the handtowel after taking it from the handtowelholder.",
+            "In this environment, my critic assigned a 1/3 value after taking a handtowel. However, the task is to clean a cloth and put it in the cabinet. I didn't clean the handtowel or put it in the cabinet in this trial. In the next trial, I will go to sinkbasin 1 or sinkbasin 2 to clean the handtowel after taking it from the handtowelholder, then I will put it in one of the cabinets.",
+            "In this environment, my critic assigned a 1/4 value after taking a towel. However, the task is to clean a cloth and put it in the cabinet. I didn't clean the towel or put it in the cabinet in this trial. In the next trial, I will go to sinkbasin 1 or sinkbasin 2 to clean the towel after taking it from the towelholder, then I will put it in one of the cabinets.",
+            "In this environment, my critic assigned a 1/4 value after taking a handtowel. However, the task is to clean a cloth and put it in the cabinet. I didn't clean the handtowel or put it in the cabinet in this trial. In the next trial, I will go to sinkbasin 1 or sinkbasin 2 to clean the handtowel after taking it from the handtowelholder, then I will put it in one of the cabinets. I will also ensure to close the cabinet after placing the cloth inside, as this is a part of the task.",
+            "In this environment, my critic assigned a 1/4 value after taking a handtowel. However, the task is to clean a cloth and put it in the cabinet. I didn't clean the handtowel or put it in the cabinet in this trial. In the next trial, I will go to sinkbasin 1 or sinkbasin 2 to clean the handtowel after taking it from the handtowelholder, then I will put it in one of the cabinets. I will also ensure to close the cabinet after placing the cloth inside, as this is a part of the task.",
+            "In this environment, my critic assigned a 1/4 value after taking a towel. However, the task is to clean a cloth and put it in the cabinet. I didn't clean the towel or put it in the cabinet in this trial. In the next trial, I will go to sinkbasin 1 or sinkbasin 2 to clean the towel after taking it from the towelholder, then I will put it in one of the cabinets. I will also ensure to close the cabinet after placing the cloth inside, as this is a part of the task. I will also ensure to generate a critic that accurately reflects the progress of the task, including cleaning the cloth and placing it in the cabinet.",
+            "In this environment, my critic assigned a 1/4 value after taking a handtowel. However, the task is to clean a cloth and put it in the cabinet. I didn't clean the handtowel or put it in the cabinet in this trial. In the next trial, I will go to sinkbasin 1 or sinkbasin 2 to clean the handtowel after taking it from the handtowelholder, then I will put it in one of the cabinets. I will also ensure to close the cabinet after placing the cloth inside, as this is a part of the task. I will also ensure to generate a critic that accurately reflects the progress of the task, including cleaning the cloth and placing it in the cabinet.",
+            "In this environment, my critic assigned a 1/4 value after taking a handtowel. However, the task is to clean a cloth and put it in the cabinet. I didn't clean the handtowel or put it in the cabinet in this trial. In the next trial, I will go to sinkbasin 1 or sinkbasin 2 to clean the handtowel after taking it from the handtowelholder, then I will put it in one of the cabinets. I will also ensure to close the cabinet after placing the cloth inside, as this is a part of the task. I will also ensure to generate a critic that accurately reflects the progress of the task, including cleaning the cloth and placing it in the cabinet.",
+            "In this environment, my critic assigned a 1/4 value after taking a towel and a soapbar. However, the task is to clean a cloth and put it in the cabinet. I didn't clean the towel or put it in the cabinet in this trial. In the next trial, I will go to sinkbasin 1 or sinkbasin 2 to clean the towel after taking it from the towelholder, then I will put it in one of the cabinets. I will also ensure to close the cabinet after placing the cloth inside, as this is a part of the task. I will also ensure to generate a critic that accurately reflects the progress of the task, including cleaning the cloth and placing it in the cabinet.",
+            "In this environment, my critic assigned a 1/4 value after taking a towel. However, the task is to clean a cloth and put it in the cabinet. I didn't clean the towel or put it in the cabinet in this trial. In the next trial, I will go to sinkbasin 1 or sinkbasin 2 to clean the towel after taking it from the towelholder, then I will put it in one of the cabinets. I will also ensure to close the cabinet after placing the cloth inside, as this is a part of the task. I will also ensure to generate a critic that accurately reflects the progress of the task, including cleaning the cloth and placing it in the cabinet.",
+            "In this environment, my critic assigned a 1/4 value after taking a towel. However, the task is to clean a cloth and put it in the cabinet. I didn't clean the towel or put it in the cabinet in this trial. In the next trial, I will go to sinkbasin 1 or sinkbasin 2 to clean the towel after taking it from the towelholder, then I will put it in one of the cabinets. I will also ensure to close the cabinet after placing the cloth inside, as this is a part of the task. I will also ensure to generate a critic that accurately reflects the progress of the task, including cleaning the cloth and placing it in the cabinet.",
+            "In this environment, my critic assigned a 1/4 value after taking a towel. However, the task is to clean a cloth and put it in the cabinet. I didn't clean the towel or put it in the cabinet in this trial. In the next trial, I will go to sinkbasin 1 or sinkbasin 2 to clean the towel after taking it from the towelholder, then I will put it in one of the cabinets. I will also ensure to close the cabinet after placing the cloth inside, as this is a part of the task. I will also ensure to generate a critic that accurately reflects the progress of the task, including cleaning the cloth and placing it in the cabinet.",
+            "In this environment, my critic assigned a 1/4 value after taking a towel. However, the task is to clean a cloth and put it in the cabinet. I didn't clean the towel or put it in the cabinet in this trial. In the next trial, I will go to sinkbasin 1 or sinkbasin 2 to clean the towel after taking it from the towelholder, then I will put it in one of the cabinets. I will also ensure to close the cabinet after placing the cloth inside, as this is a part of the task. I will also ensure to generate a critic that accurately reflects the progress of the task, including cleaning the cloth and placing it in the cabinet."
+        ],
+        "is_success": false,
+        "skip": false
+    },
+    {
+        "name": "env_108",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_109",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a soapbar. However, the task is to take and clean a cloth. I noticed that the cloth was found in cabinet 1 and cabinet 3. In the next trial, I will go to either cabinet 1 or cabinet 3 to take the cloth, then go to a sinkbasin to clean the cloth."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_110",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_111",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_112",
+        "memory": [
+            "In this environment, my critic assigned a 1/4 value after taking a peppershaker and a 3/4 value after taking a knife. However, the task is to put two peppershakers in the drawer. I noticed that one peppershaker was put on the countertop 2. I didn't find the second peppershaker in this trial. In the next trial, I will first go to countertop 2 to take the first peppershaker and then explore other locations to find a second peppershaker, including countertop 1, countertop 3, cabinet 1-6, drawer 2-3, fridge 1, shelf 1-3, stoveburner 1-4 and toaster 1, etc."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_113",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_114",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_115",
+        "memory": [
+            "In this environment, my critic assigned a 1/4 value after finding a soapbar and a 3/4 value after finding a soapbottle. However, the task is to find two soapbars and put them in the cabinet. I noticed that one soapbar was found on the countertop 1. I didn't find the second soapbar in this trial. In the next trial, I will first go to countertop 1 to find the first soapbar and then explore other locations to find a second soapbar, including cabinet 2-4, sinkbasin 1-2, and toiletpaperhanger 1, etc."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_116",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a bread and a butterknife. However, the task is to take and heat an egg. I didn't find the egg in this trial. In the next trial, I will explore other locations to find an egg, including cabinet 1-6, coffeemachine 1, countertop 1-3, drawer 1-3, fridge 1, shelf 1-3, stoveburner 1-4 and toaster 1, etc.",
+            "In this environment, my critic failed to correctly identify the task at hand. The task was to take and heat an egg, but I didn't find or take an egg during the trial. In the next trial, I will focus on finding an egg first, possibly in the fridge or on the countertops. Once I have the egg, I will heat it in the microwave before disposing of it in the garbage can."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_117",
+        "memory": [
+            "In this environment, my critic assigned a 1/2 value after taking a pen. However, the task is to examine a pencil with the desklamp. I noticed that the pencil was found on desk 2. In the next trial, I will go to desk 2 to take the pencil, then go to desk 1 to use the desklamp."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_118",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a dishsponge. However, the task is to take and clean a plate. I noticed that the plate was found on countertop 2. In the next trial, I will go to countertop 2 to take the plate, then go to a sinkbasin to clean the plate."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_119",
+        "memory": [
+            "In this environment, my critic assigned a 1/2 value after taking a mug and a 2/2 value after using the desklamp. However, the task is to look at a bowl under the desklamp. I didn't find the bowl in this trial. In the next trial, I will explore other locations to find a bowl, including desk 2, drawer 1-6, garbagecan 1, laundryhamper 1, safe 1, and shelf 1-6."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_120",
+        "memory": [
+            "In this environment, my critic assigned a 3/4 value after taking the same peppershaker from the drawer that I had previously placed there. However, the task is to find two different peppershakers. I didn't find the second peppershaker in this trial. In the next trial, I will explore other locations to find a second peppershaker, including cabinet 1-4, countertop 1-2, drawer 2-3, fridge 1, microwave 1, shelf 1-3, stoveburner 1-4 and toaster 1, etc.",
+            "In this environment, my critic assigned a 3/4 value after finding the second peppershaker. However, the task is to put the second peppershaker in the drawer, which I failed to do. I noticed that the second peppershaker was found on the countertop 3. In the next trial, after finding the second peppershaker, I will ensure to put it in the drawer to complete the task."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_121",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_122",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_123",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a peppershaker. However, the task is to take and heat a mug. I noticed that the mug was found on countertop 3. In the next trial, I will go to countertop 3 to take the mug, then go to the microwave to heat the mug, and finally put the hot mug in the coffeemachine."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_124",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_125",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_126",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_127",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_128",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_129",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_130",
+        "memory": [
+            "In this environment, my critic assigned a 1/2 value after taking a cellphone. However, the task is to look at a cd under the desklamp. I noticed that the cd was found on desk 2. In the next trial, I will go to desk 2 to take the cd, then go to desk 1 to use the desklamp."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_131",
+        "memory": [
+            "In this environment, my critic assigned a 1/3 value after taking a pan. However, the task is to take and heat an apple. I noticed that the apple was found in the fridge 1 and on the sinkbasin 1. In the next trial, I will go to either the fridge 1 or sinkbasin 1 to take the apple, then go to the microwave to heat the apple, and finally put the heated apple back in the fridge.",
+            "In this environment, my critic assigned a 1/3 value after taking a pan and a 2/3 value after taking an apple. However, the task is to heat an apple and put it in the fridge. I heated the apple but failed to put it back in the fridge. In the next trial, I will follow the same steps but ensure to put the heated apple back in the fridge."
+        ],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_132",
+        "memory": [],
+        "is_success": true,
+        "skip": false
+    },
+    {
+        "name": "env_133",
+        "memory": [
+            "In this environment, my critic assigned a 1/2 value after taking a bowl. However, the task is to take and examine a book with the desklamp. I didn't find the book in this trial. In the next trial, I will explore other locations to find a book, including desk 2, drawer 3-6, shelf 4, and safe 1, etc.",
+            "In this environment, my critic assigned a 1/2 value after taking a keychain. However, the task is to take and examine a book with the desklamp. I didn't find the book in this trial. In the next trial, I will explore other locations to find a book, including desk 2, drawer 3-6, shelf 4, and safe 1, etc.",
+            "In this environment, my critic assigned a 1/2 value after taking a pen. However, the task is to take and examine a book with the desklamp. I didn't find the book in this trial. In the next trial, I will explore other locations to find a book, including desk 2, drawer 3-6, shelf 1-3, and safe 1, etc.",
+            "In this environment, my critic assigned a 1/2 value after taking a bowl. However, the task is to take and examine a book with the desklamp. I didn't find the book in this trial. In the next trial, I will explore other locations to find a book, including desk 1, desk 2, drawer 1-2, shelf 5-6, and safe 1, etc.",
+            "In this environment, my critic assigned a 1/2 value after turning on the desklamp. However, the task is to take a book and examine it with the desklamp. I didn't find the book in this trial. In the next trial, I will explore other locations to find a book, including desk 2, drawer 3-6, shelf 4-6, and safe 1, etc.",
+            "In this environment, my critic assigned a 1/2 value after taking a bowl. However, the task is to take and examine a book with the desklamp. I didn't find the book in this trial. In the next trial, I will explore other locations to find a book, including desk 2, drawer 3-6, shelf 2-4, and safe 1, etc.",
+            "In this environment, my critic assigned a 1/2 value after taking an alarmclock. However, the task is to take and examine a book with the desklamp. I noticed that the book was found on the bed 1. In the next trial, I will go to bed 1 to take the book, then go to a desk to use the desklamp to examine the book."
+        ],
+        "is_success": true,
+        "skip": false
+    }
+]
