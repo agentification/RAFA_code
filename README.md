@@ -14,10 +14,9 @@ Please follow the instructions in the respective directories to reproduce our re
 * [BlocksWorld](https://github.com/agentification/RAFA_code/tree/main/BlocksWorld)
 * [Tic-Tac-Toe](https://github.com/agentification/RAFA_code/tree/main/Tic-Tac-Toe)
 
----
+
 # Game of 24
 ## Environment setup
-
 - Set `OPENAI_API_KEY` environment variable to your OpenAI API key:
 ```bash
 export OPENAI_API_KEY=<your key>
