@@ -1,6 +1,6 @@
 # Reason for Future, Act for Now: A Principled Framework for Autonomous LLM Agents with Provable Sample Efficiency
 
-Code for [Reason for Future, Act for Now: A Principled Framework for Autonomous LLM Agents with Provable Sample Efficiency](https://arxiv.org/abs/2309.17382).
+Code for [Reason for Future, Act for Now: A Principled Framework for Autonomous LLM Agents with Provable Sample Efficiency](https://arxiv.org/abs/2309.17382), International Conference on Machine Learning (ICML), 2024.
 
 Project page: https://agentification.github.io/RAFA.
 
